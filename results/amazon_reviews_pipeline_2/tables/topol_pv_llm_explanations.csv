@@ -1,0 +1,544 @@
+axis_id,topic,contrast_index,explanation
+0,0,1,"Group A reviews are more likely to use the word ""num"" and Group B reviews are more likely to use the word ""don""."
+1,0,2,Group A reviews are more positive than Group B reviews.
+2,0,3,Group A reviews are more negative than Group B reviews.
+3,0,4,Group A reviews are more negative and Group B reviews are more positive.
+4,0,5,Group A reviews are more positive than Group B reviews.
+5,0,6,Group A reviews are more positive than Group B reviews.
+6,0,7,"Group A reviews are more likely to use the word ""music"" and Group B reviews are more likely to use the word ""num""."
+7,0,8,Group A reviews are more negative and Group B reviews are more positive.
+8,0,9,Group A reviews are more positive and Group B reviews are more negative.
+9,0,10,Group A reviews are more negative and Group B reviews are more positive.
+10,0,11,Group A reviews are more negative and Group B reviews are more positive.
+11,0,12,Group A reviews are more positive and Group B reviews are more negative.
+12,0,13,Group A reviews are more positive than Group B reviews.
+13,0,14,Group A reviews are more positive and Group B reviews are more negative.
+14,0,15,Group A reviews are more positive and Group B reviews are more negative.
+15,0,16,Group A reviews are more positive than Group B reviews.
+16,0,17,Group A reviews are more positive than Group B reviews.
+17,0,18,Group A reviews are more positive than Group B reviews.
+18,0,19,Group A reviews are more positive than Group B reviews.
+19,0,20,Group A reviews are more positive than Group B reviews.
+20,0,22,Group A reviews are more positive and Group B reviews are more negative.
+21,0,23,Group A reviews are more positive than Group B reviews.
+22,0,24,Group A reviews are more positive than Group B reviews.
+23,0,25,Group A reviews are more negative and Group B reviews are more positive.
+24,0,26,Group A reviews are more positive than Group B reviews.
+25,0,27,"Group A reviews are more likely to use the word ""date"" and Group B reviews are more likely to use the word ""don""."
+26,0,28,Group A reviews are more positive than Group B reviews.
+27,0,29,Group A reviews are more positive than Group B reviews.
+28,0,31,Group A reviews are more positive than Group B reviews.
+29,0,32,Group A reviews are more positive than Group B reviews.
+30,0,34,Group A reviews are more negative and Group B reviews are more positive.
+31,0,35,Group A reviews are more positive than Group B reviews.
+32,0,37,Group A reviews are more negative and Group B reviews are more positive.
+33,0,38,Group A reviews are more negative and Group B reviews are more positive.
+34,0,39,Group A reviews are more positive and Group B reviews are more negative.
+35,0,40,Group A reviews are more positive and Group B reviews are more negative.
+36,0,41,"Group A reviews are more likely to use the words ""like"" and ""bad"" and Group B reviews are more likely to use the words ""great"" and ""love."""
+37,0,42,Group A reviews are more negative and Group B reviews are more positive.
+38,0,44,Group A reviews are more positive than Group B reviews.
+39,0,46,Group A reviews are more positive than Group B reviews.
+40,0,47,"Group A reviews are more likely to use the word ""like"" and Group B reviews are more likely to use the word ""love""."
+41,0,48,Group A reviews are more positive than Group B reviews.
+42,0,50,Group A reviews are more positive than Group B reviews.
+43,0,51,Group A reviews are more positive than Group B reviews.
+44,0,52,Group A reviews are more negative and Group B reviews are more positive.
+45,1,0,Group A reviews are more negative and Group B reviews are more positive.
+46,1,1,Group A reviews are more negative and Group B reviews are more positive.
+47,1,2,Group A reviews are more positive than Group B reviews.
+48,1,4,"Group A reviews are more likely to use the word ""bad"" and Group B reviews are more likely to use the word ""good."""
+49,1,5,Group A reviews are more negative and Group B reviews are more positive.
+50,1,7,Group A reviews are more negative than Group B reviews.
+51,1,8,"Group A reviews have more words that start with ""d"" and Group B reviews have more words that start with ""n""."
+52,1,10,Group A reviews are more negative than Group B reviews.
+53,1,11,"Group A reviews are more likely to use the word ""num"" and Group B reviews are more likely to use the word ""quality""."
+54,1,12,Group A reviews are more negative than Group B reviews.
+55,1,13,Group A reviews are more positive and Group B reviews are more negative.
+56,1,15,Group A reviews are more positive than Group B reviews.
+57,1,16,Group A reviews are more negative than Group B reviews.
+58,1,17,Group A reviews are more positive than Group B reviews.
+59,1,18,Group A reviews are more negative than Group B reviews.
+60,1,19,Group A reviews are more positive and Group B reviews are more negative.
+61,1,20,Group A reviews are more negative and Group B reviews are more positive.
+62,1,21,Group A reviews are more negative than Group B reviews.
+63,1,23,Group A reviews are more negative and Group B reviews are more positive.
+64,1,24,Group A reviews are more negative and Group B reviews are more positive.
+65,1,25,Group A reviews are more positive than Group B reviews.
+66,1,26,Group A reviews are more negative than Group B reviews.
+67,1,28,Group A reviews are more negative than Group B reviews.
+68,1,29,Group A reviews are more positive than Group B reviews.
+69,1,30,"Group A reviews are more likely to use the word ""date"" and Group B reviews are more likely to use the word ""size""."
+70,1,31,Group A reviews are more positive than Group B reviews.
+71,1,33,Group A reviews are more negative and Group B reviews are more positive.
+72,1,34,"Group A reviews are more likely to mention the word ""date"" and Group B reviews are more likely to mention the word ""num""."
+73,1,35,Group A reviews are more negative and Group B reviews are more positive.
+74,1,36,Group A reviews are more negative and Group B reviews are more positive.
+75,1,37,"Group A reviews are more likely to use the word ""amazon"" and Group B reviews are more likely to use the word ""date""."
+76,1,43,Group A reviews are more negative than Group B reviews.
+77,1,44,Group A reviews are more negative and Group B reviews are more positive.
+78,1,45,Group A reviews are more positive than Group B reviews.
+79,1,47,Group A reviews are more negative than Group B reviews.
+80,2,0,"Group A reviews are more likely to use the word ""book"" and Group B reviews are more likely to use the word ""num""."
+81,2,1,Group A reviews are more positive and Group B reviews are more negative.
+82,2,2,Group A reviews are more positive than Group B reviews.
+83,2,3,Group A reviews are more positive and Group B reviews are more negative.
+84,2,4,Group A reviews are more positive and Group B reviews are more negative.
+85,2,5,Group A reviews are more positive and Group B reviews are more negative.
+86,2,6,Group A reviews are more positive than Group B reviews.
+87,2,7,Group A reviews are more positive and Group B reviews are more negative.
+88,2,8,Group A reviews are more positive and Group B reviews are more negative.
+89,2,9,Group A reviews are more negative and Group B reviews are more positive.
+90,2,10,Group A reviews are more negative and Group B reviews are more positive.
+91,2,11,"Group A reviews are more likely to contain words like ""num"" and ""date"" and Group B reviews are more likely to contain words like ""book"" and ""examples""."
+92,2,12,Group A reviews are more positive and Group B reviews are more negative.
+93,2,13,Group A reviews are more positive than Group B reviews.
+94,2,15,Group A reviews are more positive and Group B reviews are more negative.
+95,2,18,Group A reviews are more positive and Group B reviews are more negative.
+96,2,19,"Group A reviews are more likely to contain words like ""num"", ""time"", ""date"", ""don"", ""life"", ""read"", ""people"", ""make"", ""like"", ""reading"", while Group B reviews are more likely to contain words"
+97,2,20,Group A reviews are more positive and Group B reviews are more negative.
+98,2,21,Group A reviews are more positive and Group B reviews are more negative.
+99,2,22,Group A reviews are more positive and Group B reviews are more negative.
+100,2,23,Group A reviews are more positive than Group B reviews.
+101,2,26,Group A reviews are more positive and Group B reviews are more negative.
+102,2,27,Group A reviews are more positive and Group B reviews are more negative.
+103,2,30,Group A reviews are more negative and Group B reviews are more positive.
+104,2,32,Group A reviews are more positive than Group B reviews.
+105,2,34,Group A reviews are more positive and Group B reviews are more negative.
+106,2,35,Group A reviews are more positive and Group B reviews are more negative.
+107,2,36,Group A reviews are more positive and Group B reviews are more negative.
+108,2,39,Group A reviews are more negative and Group B reviews are more positive.
+109,2,40,Group A reviews are more positive than Group B reviews.
+110,2,41,Group A reviews are more positive and Group B reviews are more negative.
+111,2,42,Group A reviews are more negative and Group B reviews are more positive.
+112,2,43,Group A reviews are more positive than Group B reviews.
+113,2,44,Group A reviews are more positive than Group B reviews.
+114,2,45,Group A reviews are more negative and Group B reviews are more positive.
+115,2,46,Group A reviews are more negative and Group B reviews are more positive.
+116,3,0,Group A reviews are more negative and Group B reviews are more positive.
+117,3,1,Group A reviews are more negative and Group B reviews are more positive.
+118,3,2,Group A reviews are more positive than Group B reviews.
+119,3,4,Group A reviews are more negative and Group B reviews are more positive.
+120,3,5,Group A reviews are more negative and Group B reviews are more positive.
+121,3,6,Group A reviews are more negative and Group B reviews are more positive.
+122,3,7,Group A reviews are more positive and Group B reviews are more negative.
+123,3,8,Group A reviews are more positive than Group B reviews.
+124,3,9,Group A reviews are more negative and Group B reviews are more positive.
+125,3,10,Group A reviews are more positive than Group B reviews.
+126,3,11,Group A reviews are more positive than Group B reviews.
+127,3,12,Group A reviews are more positive and Group B reviews are more negative.
+128,3,13,"Group A reviews are more likely to use the word ""NUM"" and Group B reviews are more likely to use the word ""DATE""."
+129,3,14,Group A reviews are more positive than Group B reviews.
+130,3,15,Group A reviews are more positive and Group B reviews are more negative.
+131,3,16,Group A reviews are more positive than Group B reviews.
+132,3,17,Group A reviews are more positive and Group B reviews are more negative.
+133,3,19,"Group A reviews are more likely to use the word ""num"" and Group B reviews are more likely to use the word ""num num""."
+134,3,20,"Group A reviews are more likely to use the word ""movie"" and Group B reviews are more likely to use the word ""film""."
+135,3,22,Group A reviews are more positive than Group B reviews.
+136,3,23,Group A reviews are more positive than Group B reviews.
+137,3,24,Group A reviews are more positive and Group B reviews are more negative.
+138,3,25,Group A reviews are more positive than Group B reviews.
+139,3,26,Group A reviews are more negative and Group B reviews are more positive.
+140,3,27,Group A reviews are more positive and Group B reviews are more negative.
+141,3,28,Group A reviews are more positive than Group B reviews.
+142,3,29,Group A reviews are more positive than Group B reviews.
+143,3,30,Group A reviews are more positive than Group B reviews.
+144,3,31,Group A reviews are more positive and Group B reviews are more negative.
+145,3,32,"Group A reviews are more likely to use words that are more likely to be used in a review of a book, while Group B reviews are more likely to use words that are more likely to be used in a review of a movie."
+146,3,34,Group A reviews are more positive than Group B reviews.
+147,3,35,Group A reviews are more positive and Group B reviews are more negative.
+148,3,36,Group A reviews are more positive than Group B reviews.
+149,3,37,Group A reviews are more positive than Group B reviews.
+150,3,38,Group A reviews are more positive and Group B reviews are more negative.
+151,3,40,Group A reviews are more positive and Group B reviews are more negative.
+152,3,41,Group A reviews are more positive and Group B reviews are more negative.
+153,3,42,Group A reviews are more positive than Group B reviews.
+154,3,43,Group A reviews are more positive and Group B reviews are more negative.
+155,3,46,Group A reviews are more positive than Group B reviews.
+156,4,0,Group A reviews are more positive than Group B reviews.
+157,4,1,Group A reviews are more negative and Group B reviews are more positive.
+158,4,2,Group A reviews are more positive than Group B reviews.
+159,4,4,Group A reviews are more positive than Group B reviews.
+160,4,5,Group A reviews say more about the product's quality and Group B reviews say more about the product's price.
+161,4,6,Group A reviews are more positive than Group B reviews.
+162,4,8,Group A reviews are more positive than Group B reviews.
+163,4,9,Group A reviews are more negative than Group B reviews.
+164,4,10,Group A reviews are more positive and Group B reviews are more negative.
+165,4,11,Group A reviews are more positive than Group B reviews.
+166,4,12,Group A reviews are more negative and Group B reviews are more positive.
+167,4,13,Group A reviews are more positive than Group B reviews.
+168,4,14,Group A reviews are more positive than Group B reviews.
+169,4,15,Group A reviews are more positive than Group B reviews.
+170,4,16,Group A reviews are more positive than Group B reviews.
+171,4,17,Group A reviews are more positive than Group B reviews.
+172,4,18,Group A reviews are more positive than Group B reviews.
+173,4,20,"Group A reviews are more likely to use the word ""time"" and Group B reviews are more likely to use the word ""num""."
+174,4,21,Group A reviews are more positive than Group B reviews.
+175,4,22,Group A reviews are more negative and Group B reviews are more positive.
+176,4,23,Group A reviews are more positive than Group B reviews.
+177,4,24,Group A reviews are more positive than Group B reviews.
+178,4,25,Group A reviews are more positive than Group B reviews.
+179,4,26,Group A reviews are more positive than Group B reviews.
+180,4,28,"Group A reviews are more likely to use the word ""num"" and Group B reviews are more likely to use the word ""love""."
+181,4,29,Group A reviews are more negative than Group B reviews.
+182,4,30,Group A reviews are more positive than Group B reviews.
+183,4,31,Group A reviews are more positive than Group B reviews.
+184,4,32,Group A reviews are more positive than Group B reviews.
+185,4,34,Group A reviews are more positive than Group B reviews.
+186,4,37,Group A reviews are more negative and Group B reviews are more positive.
+187,4,38,Group A reviews are more negative than Group B reviews.
+188,4,40,Group A reviews are more negative and Group B reviews are more positive.
+189,4,42,Group A reviews are more positive than Group B reviews.
+190,4,44,"Group A reviews are more likely to use the word ""time"" and Group B reviews are more likely to use the word ""seat."""
+191,4,46,"Group A reviews say more about the product's quality, while Group B reviews say more about the product's use."
+192,4,47,Group A reviews are more positive than Group B reviews.
+193,4,48,Group A reviews are more negative than Group B reviews.
+194,4,53,Group A reviews are more positive than Group B reviews.
+195,4,54,Group A reviews are more positive than Group B reviews.
+196,4,55,Group A reviews are more positive than Group B reviews.
+197,4,56,Group A reviews are more positive than Group B reviews.
+198,5,0,Group A reviews are more positive than Group B reviews.
+199,5,1,"Group A reviews are more likely to contain words like num, date, blah, boring, bad, just, say, blah blah, review, like, while Group B reviews are more likely to contain words like characters, author, romance, children,"
+200,5,2,Group A reviews are more negative and Group B reviews are more positive.
+201,5,3,Group A reviews are more positive and Group B reviews are more negative.
+202,5,4,Group A reviews are more emotional and Group B reviews are more rational.
+203,5,6,Group A reviews are more positive and Group B reviews are more negative.
+204,5,7,Group A reviews are more negative and Group B reviews are more positive.
+205,5,8,Group A reviews are more positive than Group B reviews.
+206,5,9,"Group A reviews say more words that end in -ing, -ed, -en, -ed, -ed, -ed, -ed, -ed, -ed, -ed, -ed, -ed, -ed, -ed"
+207,5,10,Group A reviews are more negative and Group B reviews are more positive.
+208,5,11,Group A reviews are more negative and Group B reviews are more positive.
+209,5,12,Group A reviews are more negative and Group B reviews are more positive.
+210,5,13,Group A reviews are more positive than Group B reviews.
+211,5,14,"Group A reviews say more about the story, novel, characters, little, character, group, world, does, takes, main, while Group B reviews say more about the female readers be advised, tedius, rowling, wrote, million,"
+212,5,15,Group A reviews are more negative and Group B reviews are more positive.
+213,5,16,Group A reviews are more negative and Group B reviews are more positive.
+214,5,17,Group A reviews are more negative and Group B reviews are more positive.
+215,5,18,Group A reviews are more negative and Group B reviews are more positive.
+216,5,19,Group A reviews are more positive and Group B reviews are more negative.
+217,5,20,Group A reviews are more positive than Group B reviews.
+218,5,21,Group A reviews are more negative than Group B reviews.
+219,5,22,Group A reviews are more positive than Group B reviews.
+220,5,23,"Group A reviews are more likely to use the word ""date"" and Group B reviews are more likely to use the word ""book""."
+221,5,24,Group A reviews are more positive and Group B reviews are more negative.
+222,5,25,Group A reviews are more negative and Group B reviews are more positive.
+223,5,27,Group A reviews are more positive than Group B reviews.
+224,5,28,Group A reviews are more negative and Group B reviews are more positive.
+225,5,29,Group A reviews are more negative and Group B reviews are more positive.
+226,5,30,"Group A reviews say more about the content of the product, while Group B reviews say more about the reviewer's personal feelings."
+227,5,31,Group A reviews are more negative than Group B reviews.
+228,5,32,Group A reviews are more positive and Group B reviews are more negative.
+229,5,34,Group A reviews are more positive than Group B reviews.
+230,5,35,Group A reviews are more positive than Group B reviews.
+231,5,36,"Group A reviews are more likely to use words that are more likely to be used by men, and Group B reviews are more likely to use words that are more likely to be used by women."
+232,5,37,"Group A reviews are more likely to use the word ""fiction"" and Group B reviews are more likely to use the word ""children."""
+233,5,39,Group A reviews are more negative and Group B reviews are more positive.
+234,5,40,Group A reviews are more positive than Group B reviews.
+235,5,41,"Group A reviews say more about the product itself, while Group B reviews say more about the reviewer's personal experience."
+236,5,43,Group A reviews are more negative than Group B reviews.
+237,5,44,Group A reviews are more positive than Group B reviews.
+238,5,47,Group A reviews are more positive than Group B reviews.
+239,5,48,Group A reviews are more negative than Group B reviews.
+240,5,50,Group A reviews are more negative and Group B reviews are more positive.
+241,6,0,Group A reviews are more positive than Group B reviews.
+242,6,1,Group A reviews are more positive than Group B reviews.
+243,6,3,Group A reviews are more positive than Group B reviews.
+244,6,5,Group A reviews are more positive than Group B reviews.
+245,6,7,Group A reviews are more positive than Group B reviews.
+246,6,8,Group A reviews are more positive than Group B reviews.
+247,6,9,Group A reviews are more negative than Group B reviews.
+248,6,10,Group A reviews are more positive than Group B reviews.
+249,6,12,Group A reviews are more positive and Group B reviews are more negative.
+250,6,13,"Group A reviews are more likely to use the word ""buy"" and Group B reviews are more likely to use the word ""date""."
+251,6,14,Group A reviews are more negative than Group B reviews.
+252,6,15,Group A reviews are more negative than Group B reviews.
+253,6,16,Group A reviews are more negative than Group B reviews.
+254,6,17,Group A reviews are more positive than Group B reviews.
+255,6,18,Group A reviews are more positive than Group B reviews.
+256,6,20,Group A reviews are more negative and Group B reviews are more positive.
+257,6,21,"Group A reviews are more likely to use the word ""num"" and Group B reviews are more likely to use the word ""time""."
+258,6,22,Group A reviews are more positive than Group B reviews.
+259,6,23,Group A reviews are more positive than Group B reviews.
+260,6,24,Group A reviews are more positive than Group B reviews.
+261,6,25,Group A reviews are more positive than Group B reviews.
+262,6,26,Group A reviews are more positive than Group B reviews.
+263,6,27,Group A reviews are more positive than Group B reviews.
+264,6,28,"Group A reviews are more likely to use the word ""num"" than Group B reviews."
+265,6,29,Group A reviews are more positive and Group B reviews are more negative.
+266,6,30,Group A reviews are more positive than Group B reviews.
+267,6,31,Group A reviews are more positive than Group B reviews.
+268,6,32,Group A reviews are more negative and Group B reviews are more positive.
+269,6,33,Group A reviews are more positive than Group B reviews.
+270,6,34,Group A reviews are more negative than Group B reviews.
+271,6,35,Group A reviews are more positive than Group B reviews.
+272,6,36,Group A reviews are more negative than Group B reviews.
+273,6,37,"Group A reviews are more likely to mention the word ""software"" and Group B reviews are more likely to mention the word ""sound""."
+274,6,39,Group A reviews are more negative and Group B reviews are more positive.
+275,6,40,Group A reviews are more positive than Group B reviews.
+276,6,41,Group A reviews are more positive than Group B reviews.
+277,6,42,"Group A reviews are more likely to mention the word ""date"" and Group B reviews are more likely to mention the word ""sound""."
+278,6,43,Group A reviews are more positive than Group B reviews.
+279,6,44,"Group A reviews are more likely to use the word ""buy"" and Group B reviews are more likely to use the word ""sound."""
+280,6,46,Group A reviews are more positive and Group B reviews are more negative.
+281,6,47,Group A reviews are more negative and Group B reviews are more positive.
+282,7,0,"Group A reviews are more likely to mention the word ""government"" and Group B reviews are more likely to mention the word ""god""."
+283,7,1,"Group A reviews are more likely to use words like ""history,"" ""war,"" ""black,"" ""government,"" ""world,"" ""political,"" ""fascinating,"" ""american,"" ""children,"" and ""russian,"" while Group B reviews are more likely"
+284,7,2,"Group A reviews are more likely to use words like ""government"" and ""political"" and Group B reviews are more likely to use words like ""god"" and ""christian""."
+285,7,4,Group A reviews are more negative than Group B reviews.
+286,7,5,Group A reviews are more positive than Group B reviews.
+287,7,6,"Group A reviews are more likely to use the words num, date, family, war, black, japan, editor, school, father, bush, while Group B reviews are more likely to use the words don, book, didn, disappointed, doesn"
+288,7,7,Group A reviews are more negative and Group B reviews are more positive.
+289,7,8,Group A reviews are more positive and Group B reviews are more negative.
+290,7,9,"Group A reviews are more likely to use the word ""date"" than Group B reviews."
+291,7,10,Group A reviews are more positive and Group B reviews are more negative.
+292,7,11,Group A reviews are more positive and Group B reviews are more negative.
+293,7,12,Group A reviews are more positive and Group B reviews are more negative.
+294,7,13,Group A reviews say more words than Group B reviews.
+295,7,14,Group A reviews are more positive than Group B reviews.
+296,7,15,"Group A reviews are more likely to use the word ""science"" and Group B reviews are more likely to use the word ""date""."
+297,7,16,"Group A reviews are more likely to use the word ""date"" than Group B reviews."
+298,7,18,"Group A reviews are more likely to use the words ""anti"" and ""america"" and Group B reviews are more likely to use the words ""god"" and ""life""."
+299,7,19,Group A reviews are more positive and Group B reviews are more negative.
+300,7,20,"Group A reviews are more likely to use the word ""church"" and Group B reviews are more likely to use the word ""things""."
+301,7,21,Group A reviews are more positive and Group B reviews are more negative.
+302,7,22,Group A reviews are more negative and Group B reviews are more positive.
+303,7,24,Group A reviews are more positive and Group B reviews are more negative.
+304,7,25,"Group A reviews are more likely to use words that are associated with the concept of ""life"" and Group B reviews are more likely to use words that are associated with the concept of ""science""."
+305,7,26,"Group A reviews are more likely to use the word ""book"" and Group B reviews are more likely to use the word ""life""."
+306,7,27,Group A reviews are more positive and Group B reviews are more negative.
+307,7,28,"Group A reviews are more likely to mention the word ""god"" and Group B reviews are more likely to mention the word ""date""."
+308,7,32,"Group A reviews are more likely to use the word ""god"" and Group B reviews are more likely to use the word ""book""."
+309,7,33,Group A reviews are more positive and Group B reviews are more negative.
+310,7,35,"Group A reviews are more likely to mention god, jesus, life, truth, christ, world, christian, bush, government, political, while Group B reviews are more likely to mention book, author, away, great, fan, does, date"
+311,7,38,Group A reviews are more negative and Group B reviews are more positive.
+312,7,41,Group A reviews are more negative and Group B reviews are more positive.
+313,7,42,"Group A reviews are more likely to use the word ""money"" and Group B reviews are more likely to use the word ""history."""
+314,7,44,Group A reviews are more positive and Group B reviews are more negative.
+315,7,45,Group A reviews are more positive and Group B reviews are more negative.
+316,7,47,Group A reviews are more positive than Group B reviews.
+317,7,48,"Group A reviews are more likely to use the words ""god"" and ""jesus"" and Group B reviews are more likely to use the words ""good"" and ""life""."
+318,8,0,Group A reviews are more positive and Group B reviews are more negative.
+319,8,1,Group A reviews are more positive and Group B reviews are more negative.
+320,8,2,Group A reviews are more positive and Group B reviews are more negative.
+321,8,3,Group A reviews are more positive and Group B reviews are more negative.
+322,8,4,Group A reviews are more positive and Group B reviews are more negative.
+323,8,9,Group A reviews are more positive and Group B reviews are more negative.
+324,8,11,"Group A reviews are more likely to use the word ""book"" and Group B reviews are more likely to use the word ""date."""
+325,8,12,Group A reviews are more positive than Group B reviews.
+326,8,13,Group A reviews are more positive than Group B reviews.
+327,8,14,Group A reviews are more positive and Group B reviews are more negative.
+328,8,15,Group A reviews are more positive than Group B reviews.
+329,8,16,Group A reviews are more positive than Group B reviews.
+330,8,17,Group A reviews are more positive than Group B reviews.
+331,8,18,Group A reviews are more positive and Group B reviews are more negative.
+332,8,19,Group A reviews are more positive than Group B reviews.
+333,8,20,Group A reviews are more positive than Group B reviews.
+334,8,21,Group A reviews are more positive and Group B reviews are more negative.
+335,8,22,Group A reviews are more positive and Group B reviews are more negative.
+336,8,23,Group A reviews are more positive than Group B reviews.
+337,8,24,Group A reviews are more positive and Group B reviews are more negative.
+338,8,26,Group A reviews are more positive than Group B reviews.
+339,8,27,Group A reviews are more positive than Group B reviews.
+340,8,28,Group A reviews are more positive than Group B reviews.
+341,8,32,Group A reviews are more positive than Group B reviews.
+342,8,33,Group A reviews are more positive and Group B reviews are more negative.
+343,8,34,Group A reviews are more positive than Group B reviews.
+344,8,35,Group A reviews are more positive than Group B reviews.
+345,8,37,Group A reviews are more positive than Group B reviews.
+346,8,38,Group A reviews are more positive than Group B reviews.
+347,8,39,Group A reviews are more positive than Group B reviews.
+348,8,40,"Group A reviews are more likely to use the word ""date"" than Group B reviews."
+349,8,41,Group A reviews are more positive and Group B reviews are more negative.
+350,8,42,Group A reviews are more positive than Group B reviews.
+351,8,43,Group A reviews are more positive than Group B reviews.
+352,8,44,Group A reviews are more positive and Group B reviews are more negative.
+353,8,46,Group A reviews are more positive than Group B reviews.
+354,8,48,Group A reviews are more positive than Group B reviews.
+355,8,49,Group A reviews are more positive and Group B reviews are more negative.
+356,8,50,Group A reviews are more positive and Group B reviews are more negative.
+357,8,52,Group A reviews are more positive than Group B reviews.
+358,9,2,Group A reviews are more positive than Group B reviews.
+359,9,3,Group A reviews are more positive and Group B reviews are more negative.
+360,9,4,Group A reviews are more positive and Group B reviews are more negative.
+361,9,6,Group A reviews are more positive than Group B reviews.
+362,9,7,Group A reviews are more positive and Group B reviews are more negative.
+363,9,8,Group A reviews are more positive than Group B reviews.
+364,9,9,"Group A reviews are more likely to use the word ""work"" and Group B reviews are more likely to use the word ""love""."
+365,9,10,Group A reviews are more positive than Group B reviews.
+366,9,11,Group A reviews are more positive and Group B reviews are more negative.
+367,9,13,Group A reviews are more positive and Group B reviews are more negative.
+368,9,14,Group A reviews are more positive than Group B reviews.
+369,9,16,Group A reviews are more positive than Group B reviews.
+370,9,17,Group A reviews are more positive and Group B reviews are more negative.
+371,9,18,Group A reviews are more positive than Group B reviews.
+372,9,19,Group A reviews are more positive and Group B reviews are more negative.
+373,9,20,Group A reviews are more positive than Group B reviews.
+374,9,21,Group A reviews are more positive than Group B reviews.
+375,9,22,Group A reviews are more positive than Group B reviews.
+376,9,23,Group A reviews are more positive than Group B reviews.
+377,9,24,Group A reviews are more positive and Group B reviews are more negative.
+378,9,25,Group A reviews are more positive and Group B reviews are more negative.
+379,9,26,Group A reviews are more positive and Group B reviews are more negative.
+380,9,28,Group A reviews are more positive than Group B reviews.
+381,9,29,Group A reviews are more positive and Group B reviews are more negative.
+382,9,30,Group A reviews are more positive than Group B reviews.
+383,9,31,Group A reviews are more positive and Group B reviews are more negative.
+384,9,33,Group A reviews are more positive than Group B reviews.
+385,9,34,Group A reviews are more positive than Group B reviews.
+386,9,35,Group A reviews are more positive than Group B reviews.
+387,9,36,Group A reviews are more positive than Group B reviews.
+388,9,37,Group A reviews are more positive and Group B reviews are more negative.
+389,9,38,Group A reviews are more positive than Group B reviews.
+390,9,39,Group A reviews are more positive than Group B reviews.
+391,9,42,Group A reviews are more positive than Group B reviews.
+392,9,43,Group A reviews are more positive than Group B reviews.
+393,9,44,Group A reviews are more positive and Group B reviews are more negative.
+394,9,47,Group A reviews are more positive than Group B reviews.
+395,9,48,Group A reviews are more positive than Group B reviews.
+396,9,49,Group A reviews are more positive than Group B reviews.
+397,9,51,Group A reviews are more positive and Group B reviews are more negative.
+398,9,53,Group A reviews are more positive than Group B reviews.
+399,9,54,Group A reviews are more positive than Group B reviews.
+400,9,55,Group A reviews are more positive than Group B reviews.
+401,10,0,"Group A reviews are more likely to mention the product's name, while Group B reviews are more likely to mention the product's price."
+402,10,1,Group A reviews are more positive than Group B reviews.
+403,10,2,"Group A reviews are more likely to use the word ""dvd"" and Group B reviews are more likely to use the word ""book""."
+404,10,4,Group A reviews are more negative and Group B reviews are more positive.
+405,10,7,Group A reviews are more negative and Group B reviews are more positive.
+406,10,12,Group A reviews are more positive and Group B reviews are more negative.
+407,10,14,Group A reviews are more positive than Group B reviews.
+408,10,15,Group A reviews are more negative than Group B reviews.
+409,10,16,Group A reviews are more negative than Group B reviews.
+410,10,17,"Group A reviews are more likely to use the word ""book"" and Group B reviews are more likely to use the word ""movie."""
+411,10,18,"Group A reviews are more likely to use the word ""book"" and Group B reviews are more likely to use the word ""movie""."
+412,10,19,Group A reviews are more positive and Group B reviews are more negative.
+413,10,21,Group A reviews are more negative and Group B reviews are more positive.
+414,10,23,Group A reviews are more positive and Group B reviews are more negative.
+415,10,24,"Group A reviews are more likely to contain words like ""num"" and ""price"" and Group B reviews are more likely to contain words like ""music"" and ""sound""."
+416,10,25,"Group A reviews say ""poor quality"" and ""poor quality reproduction"" while Group B reviews say ""good movie"" and ""love this movie""."
+417,10,26,"Group A reviews are more likely to mention the product's price, while Group B reviews are more likely to mention the product's quality."
+418,10,28,"Group A reviews are more likely to use the word ""DATE"" than Group B reviews."
+419,10,29,Group A reviews are more positive than Group B reviews.
+420,10,31,Group A reviews are more negative and Group B reviews are more positive.
+421,10,32,"Group A reviews say more words that are related to the product's quality, while Group B reviews say more words that are related to the product's price."
+422,10,33,Group A reviews are more negative than Group B reviews.
+423,10,34,Group A reviews are more negative than Group B reviews.
+424,10,35,Group A reviews are more positive than Group B reviews.
+425,10,36,"Group A reviews are more likely to use the word ""num"" than Group B reviews are."
+426,10,37,"Group A reviews are more likely to mention price, date, and num, while Group B reviews are more likely to mention book, like, just, condition, play, sound, don, read, and know."
+427,10,39,"Group A reviews are more likely to contain the word ""dvd"" and Group B reviews are more likely to contain the word ""price""."
+428,10,40,"Group A reviews are more likely to use the word ""NUM"" and Group B reviews are more likely to use the word ""NUM NUM""."
+429,10,41,Group A reviews are more negative than Group B reviews.
+430,10,43,Group A reviews are more negative and Group B reviews are more positive.
+431,10,44,Group A reviews are more negative than Group B reviews.
+432,10,45,Group A reviews are more positive and Group B reviews are more negative.
+433,10,46,Group A reviews are more positive and Group B reviews are more negative.
+434,10,47,Group A reviews are more positive and Group B reviews are more negative.
+435,10,48,Group A reviews are more positive and Group B reviews are more negative.
+436,11,1,"Group A reviews are more likely to mention the word ""dog"" and Group B reviews are more likely to mention the word ""hair""."
+437,11,2,Group A reviews are more positive than Group B reviews.
+438,11,4,Group A reviews are more positive and Group B reviews are more negative.
+439,11,5,Group A reviews are more negative than Group B reviews.
+440,11,6,"Group A reviews are more likely to mention the word ""dog"" and Group B reviews are more likely to mention the word ""product."""
+441,11,8,Group A reviews are more positive and Group B reviews are more negative.
+442,11,9,"Group A reviews are more likely to use the word ""product"" and Group B reviews are more likely to use the word ""dog""."
+443,11,10,Group A reviews are more positive and Group B reviews are more negative.
+444,11,11,Group A reviews are more positive and Group B reviews are more negative.
+445,11,14,Group A reviews are more negative and Group B reviews are more positive.
+446,11,16,Group A reviews are more positive than Group B reviews.
+447,11,17,Group A reviews are more positive than Group B reviews.
+448,11,21,Group A reviews are more positive than Group B reviews.
+449,11,23,"Group A reviews are more likely to use the word ""cat"" and Group B reviews are more likely to use the word ""chocolate""."
+450,11,24,Group A reviews are more positive than Group B reviews.
+451,11,25,Group A reviews are more negative and Group B reviews are more positive.
+452,11,28,Group A reviews are more positive than Group B reviews.
+453,11,30,Group A reviews are more positive than Group B reviews.
+454,11,31,Group A reviews are more positive than Group B reviews.
+455,11,32,Group A reviews are more positive and Group B reviews are more negative.
+456,11,33,Group A reviews are more likely to use the word NUM and Group B reviews are more likely to use the word hair.
+457,11,34,"Group A reviews are more likely to use the word ""time"" and Group B reviews are more likely to use the word ""love."""
+458,11,35,Group A reviews are more negative and Group B reviews are more positive.
+459,11,36,Group A reviews are more positive than Group B reviews.
+460,11,37,Group A reviews are more negative and Group B reviews are more positive.
+461,11,40,Group A reviews are more positive than Group B reviews.
+462,11,41,"Group A reviews are more likely to use the word ""time"" and Group B reviews are more likely to use the word ""num""."
+463,11,42,Group A reviews are more negative and Group B reviews are more positive.
+464,11,45,Group A reviews are more positive than Group B reviews.
+465,11,46,Group A reviews are more positive and Group B reviews are more negative.
+466,11,47,Group A reviews are more positive and Group B reviews are more negative.
+467,11,48,Group A reviews are more positive than Group B reviews.
+468,11,49,Group A reviews are more positive and Group B reviews are more negative.
+469,12,1,Group A reviews are more positive than Group B reviews.
+470,12,2,Group A reviews are more positive than Group B reviews.
+471,12,3,Group A reviews are more positive than Group B reviews.
+472,12,5,Group A reviews are more positive than Group B reviews.
+473,12,6,"Group A reviews are more likely to mention the price of the product, the date of the review, the number of blocks, the number of children, the quality of the product, the fun of the product, the sure of the product, the box"
+474,12,7,Group A reviews are more positive than Group B reviews.
+475,12,8,Group A reviews are more positive than Group B reviews.
+476,12,9,Group A reviews are more positive than Group B reviews.
+477,12,11,Group A reviews are more positive than Group B reviews.
+478,12,12,Group A reviews are more positive and Group B reviews are more negative.
+479,12,13,Group A reviews are more positive than Group B reviews.
+480,12,16,Group A reviews are more positive than Group B reviews.
+481,12,19,Group A reviews are more positive than Group B reviews.
+482,12,20,Group A reviews are more positive and Group B reviews are more negative.
+483,12,21,Group A reviews are more positive and Group B reviews are more negative.
+484,12,22,Group A reviews are more positive and Group B reviews are more negative.
+485,12,23,Group A reviews are more positive than Group B reviews.
+486,12,24,Group A reviews are more positive than Group B reviews.
+487,12,26,Group A reviews are more positive than Group B reviews.
+488,12,27,Group A reviews are more positive than Group B reviews.
+489,12,28,"Group A reviews are more likely to use the word ""toy"" and Group B reviews are more likely to use the word ""book."""
+490,12,30,Group A reviews are more positive than Group B reviews.
+491,12,31,Group A reviews are more positive than Group B reviews.
+492,12,32,Group A reviews are more positive than Group B reviews.
+493,12,34,Group A reviews are more positive than Group B reviews.
+494,12,35,Group A reviews are more positive than Group B reviews.
+495,12,37,Group A reviews are more negative than Group B reviews.
+496,12,38,Group A reviews are more positive than Group B reviews.
+497,12,39,Group A reviews are more positive than Group B reviews.
+498,12,42,Group A reviews are more positive than Group B reviews.
+499,12,43,Group A reviews are more positive than Group B reviews.
+500,12,44,Group A reviews are more positive and Group B reviews are more negative.
+501,12,45,"Group A reviews are more likely to use the word ""toy"" and Group B reviews are more likely to use the word ""book."""
+502,12,47,Group A reviews are more positive than Group B reviews.
+503,12,49,Group A reviews are more positive than Group B reviews.
+504,12,50,Group A reviews are more positive than Group B reviews.
+505,12,51,Group A reviews are more positive than Group B reviews.
+506,13,1,Group A reviews are more negative and Group B reviews are more positive.
+507,13,2,Group A reviews are more negative and Group B reviews are more positive.
+508,13,3,Group A reviews are more negative and Group B reviews are more positive.
+509,13,4,Group A reviews are more positive and Group B reviews are more negative.
+510,13,5,Group A reviews are more positive and Group B reviews are more negative.
+511,13,6,Group A reviews are more positive and Group B reviews are more negative.
+512,13,8,Group A reviews are more positive than Group B reviews.
+513,13,9,Group A reviews are more positive than Group B reviews.
+514,13,10,Group A reviews are more positive than Group B reviews.
+515,13,11,Group A reviews are more positive than Group B reviews.
+516,13,13,Group A reviews are more positive and Group B reviews are more negative.
+517,13,14,Group A reviews are more positive and Group B reviews are more negative.
+518,13,15,Group A reviews are more positive and Group B reviews are more negative.
+519,13,17,Group A reviews are more positive than Group B reviews.
+520,13,18,Group A reviews are more positive and Group B reviews are more negative.
+521,13,19,Group A reviews are more positive than Group B reviews.
+522,13,23,Group A reviews are more positive and Group B reviews are more negative.
+523,13,25,"Group A reviews are more likely to use the word ""num"" and Group B reviews are more likely to use the word ""want""."
+524,13,28,Group A reviews are more positive than Group B reviews.
+525,13,33,Group A reviews are more positive and Group B reviews are more negative.
+526,13,34,Group A reviews are more negative and Group B reviews are more positive.
+527,13,37,Group A reviews are more negative and Group B reviews are more positive.
+528,13,38,Group A reviews are more positive and Group B reviews are more negative.
+529,13,39,Group A reviews are more positive than Group B reviews.
+530,13,40,Group A reviews are more positive and Group B reviews are more negative.
+531,13,41,Group A reviews are more positive than Group B reviews.
+532,13,42,Group A reviews are more negative and Group B reviews are more positive.
+533,13,43,Group A reviews are more positive and Group B reviews are more negative.
+534,13,44,Group A reviews are more positive than Group B reviews.
+535,13,46,Group A reviews are more positive than Group B reviews.
+536,13,47,Group A reviews are more negative and Group B reviews are more positive.
+537,13,48,Group A reviews are more positive and Group B reviews are more negative.
+538,13,49,Group A reviews are more positive and Group B reviews are more negative.
+539,13,50,Group A reviews are more positive and Group B reviews are more negative.
+540,13,51,Group A reviews are more positive and Group B reviews are more negative.
+541,13,52,Group A reviews are more positive and Group B reviews are more negative.
+542,13,53,Group A reviews are more positive than Group B reviews.

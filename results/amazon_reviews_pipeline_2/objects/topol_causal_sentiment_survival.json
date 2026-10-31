@@ -1,0 +1,7 @@
+{
+  "acc_full": 0.8239974891853405,
+  "acc_ablate_direction": -0.1980216755733304,
+  "acc_ablate_random": 0.8267746227646646,
+  "necessity_drop": 1.022019164758671,
+  "control_drop": -0.002777133579324076
+}

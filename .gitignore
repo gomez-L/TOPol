@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# large / local artifacts
+data/
+runs/
+*.npz
+*.pkl
+*.pickle
+results/**/topol_pv_full_texts.*

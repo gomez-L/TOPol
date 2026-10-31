@@ -1,0 +1,5514 @@
+{
+  "dataset": "amazon_reviews",
+  "created": "20260728-102832",
+  "entries": {
+    "config": {
+      "kind": "config",
+      "path": "config.json",
+      "saved": "20260728-102832",
+      "meta": {}
+    },
+    "texts": {
+      "kind": "pickle",
+      "path": "objects/texts.pkl",
+      "saved": "20260728-103156",
+      "meta": {}
+    },
+    "labels": {
+      "kind": "array",
+      "path": "objects/labels.npz",
+      "saved": "20260728-103156",
+      "meta": {
+        "shape": [
+          9986
+        ],
+        "dtype": "float64"
+      }
+    },
+    "topics": {
+      "kind": "pickle",
+      "path": "objects/topics.pkl",
+      "saved": "20260728-103156",
+      "meta": {}
+    },
+    "data_meta": {
+      "kind": "json",
+      "path": "objects/data_meta.json",
+      "saved": "20260728-103156",
+      "meta": {}
+    },
+    "layer_selection": {
+      "kind": "json",
+      "path": "objects/layer_selection.json",
+      "saved": "20260728-103700",
+      "meta": {}
+    },
+    "embeddings": {
+      "kind": "array",
+      "path": "objects/embeddings.npz",
+      "saved": "20260728-103720",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float32",
+        "layer": 16
+      }
+    },
+    "01_layer_selection": {
+      "kind": "figure",
+      "path": "figures/01_layer_selection.pdf",
+      "saved": "20260728-103724",
+      "meta": {
+        "png": "figures/01_layer_selection.png"
+      }
+    },
+    "cluster_labels": {
+      "kind": "array",
+      "path": "objects/cluster_labels.npz",
+      "saved": "20260728-103833",
+      "meta": {
+        "shape": [
+          9986
+        ],
+        "dtype": "int64"
+      }
+    },
+    "coords_2d": {
+      "kind": "array",
+      "path": "objects/coords_2d.npz",
+      "saved": "20260728-103833",
+      "meta": {
+        "shape": [
+          9986,
+          2
+        ],
+        "dtype": "float32"
+      }
+    },
+    "02_field_2d": {
+      "kind": "figure",
+      "path": "figures/02_field_2d.pdf",
+      "saved": "20260728-103835",
+      "meta": {
+        "png": "figures/02_field_2d.png"
+      }
+    },
+    "field": {
+      "kind": "pickle",
+      "path": "objects/field.pkl",
+      "saved": "20260728-103946",
+      "meta": {}
+    },
+    "topol_acts_L0": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L0.npz",
+      "saved": "20260728-104519",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 0
+      }
+    },
+    "topol_acts_L2": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L2.npz",
+      "saved": "20260728-104524",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 2
+      }
+    },
+    "topol_acts_L4": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L4.npz",
+      "saved": "20260728-104528",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 4
+      }
+    },
+    "topol_acts_L6": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L6.npz",
+      "saved": "20260728-104532",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 6
+      }
+    },
+    "topol_acts_L8": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L8.npz",
+      "saved": "20260728-104536",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 8
+      }
+    },
+    "topol_acts_L10": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L10.npz",
+      "saved": "20260728-104541",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 10
+      }
+    },
+    "topol_acts_L12": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L12.npz",
+      "saved": "20260728-104545",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 12
+      }
+    },
+    "topol_acts_L14": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L14.npz",
+      "saved": "20260728-104550",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 14
+      }
+    },
+    "topol_acts_L16": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L16.npz",
+      "saved": "20260728-104555",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 16
+      }
+    },
+    "topol_acts_L18": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L18.npz",
+      "saved": "20260728-104559",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 18
+      }
+    },
+    "topol_acts_L20": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L20.npz",
+      "saved": "20260728-104604",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 20
+      }
+    },
+    "topol_acts_L22": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L22.npz",
+      "saved": "20260728-104609",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 22
+      }
+    },
+    "topol_acts_L24": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L24.npz",
+      "saved": "20260728-104613",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 24
+      }
+    },
+    "topol_acts_L26": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L26.npz",
+      "saved": "20260728-104618",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 26
+      }
+    },
+    "topol_acts_L28": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L28.npz",
+      "saved": "20260728-104623",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 28
+      }
+    },
+    "topol_acts_L30": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L30.npz",
+      "saved": "20260728-104627",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 30
+      }
+    },
+    "topol_acts_L32": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L32.npz",
+      "saved": "20260728-104632",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 32
+      }
+    },
+    "topol_acts_L34": {
+      "kind": "array_f16",
+      "path": "objects/topol_acts_L34.npz",
+      "saved": "20260728-104637",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float16",
+        "layer": 34
+      }
+    },
+    "topol_acts_meta": {
+      "kind": "json",
+      "path": "objects/topol_acts_meta.json",
+      "saved": "20260728-104637",
+      "meta": {}
+    },
+    "15_activation_exclusion": {
+      "kind": "figure",
+      "path": "figures/15_activation_exclusion.pdf",
+      "saved": "20260728-104832",
+      "meta": {
+        "png": "figures/15_activation_exclusion.png"
+      }
+    },
+    "topol_gate_results": {
+      "kind": "pickle",
+      "path": "objects/topol_gate_results.pkl",
+      "saved": "20260728-110549",
+      "meta": {}
+    },
+    "topol_axis_summary": {
+      "kind": "table",
+      "path": "tables/topol_axis_summary.csv",
+      "saved": "20260728-110753",
+      "meta": {
+        "rows": 719,
+        "cols": [
+          "topic",
+          "contrast_index",
+          "passed",
+          "found_layer",
+          "found_depth",
+          "layers_found",
+          "l_star",
+          "effect_size_at_lstar",
+          "split_half_cos",
+          "corr_length",
+          "corr_rating",
+          "r2_product_id"
+        ]
+      }
+    },
+    "16_depth_profiles_example_topic": {
+      "kind": "figure",
+      "path": "figures/16_depth_profiles_example_topic.pdf",
+      "saved": "20260728-110806",
+      "meta": {
+        "png": "figures/16_depth_profiles_example_topic.png"
+      }
+    },
+    "17_gate_stability": {
+      "kind": "figure",
+      "path": "figures/17_gate_stability.pdf",
+      "saved": "20260728-110817",
+      "meta": {
+        "png": "figures/17_gate_stability.png"
+      }
+    },
+    "topol_rejected_preview": {
+      "kind": "table",
+      "path": "tables/topol_rejected_preview.csv",
+      "saved": "20260728-110820",
+      "meta": {
+        "rows": 62,
+        "cols": [
+          "topic",
+          "source",
+          "half1_index",
+          "cos",
+          "half2_index"
+        ]
+      }
+    },
+    "topol_field_summary": {
+      "kind": "json",
+      "path": "objects/topol_field_summary.json",
+      "saved": "20260728-110829",
+      "meta": {}
+    },
+    "18_pooled_spectrum": {
+      "kind": "figure",
+      "path": "figures/18_pooled_spectrum.pdf",
+      "saved": "20260728-110846",
+      "meta": {
+        "png": "figures/18_pooled_spectrum.png"
+      }
+    },
+    "19_pooled_field_of_axes": {
+      "kind": "figure",
+      "path": "figures/19_pooled_field_of_axes.pdf",
+      "saved": "20260728-111053",
+      "meta": {
+        "png": "figures/19_pooled_field_of_axes.png"
+      }
+    },
+    "topol_baseline_comparison": {
+      "kind": "json",
+      "path": "objects/topol_baseline_comparison.json",
+      "saved": "20260728-111147",
+      "meta": {}
+    },
+    "topol_cb_axis_report": {
+      "kind": "json",
+      "path": "objects/topol_cb_axis_report.json",
+      "saved": "20260728-111147",
+      "meta": {}
+    },
+    "20_baseline_layer_agreement": {
+      "kind": "figure",
+      "path": "figures/20_baseline_layer_agreement.pdf",
+      "saved": "20260728-111208",
+      "meta": {
+        "png": "figures/20_baseline_layer_agreement.png"
+      }
+    },
+    "20b_sentiment_alignment": {
+      "kind": "figure",
+      "path": "figures/20b_sentiment_alignment.pdf",
+      "saved": "20260728-111221",
+      "meta": {
+        "png": "figures/20b_sentiment_alignment.png"
+      }
+    },
+    "topol_report_full": {
+      "kind": "json",
+      "path": "objects/topol_report_full.json",
+      "saved": "20260728-111502",
+      "meta": {}
+    },
+    "topol_report_summary": {
+      "kind": "table",
+      "path": "tables/topol_report_summary.csv",
+      "saved": "20260728-111502",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "topic",
+          "contrast_index",
+          "l_star",
+          "found_layer",
+          "found_depth",
+          "layers_found",
+          "effect_size_at_lstar",
+          "split_half_cos",
+          "corr_length",
+          "corr_rating",
+          "r2_product_id"
+        ]
+      }
+    },
+    "topol_report_rejected": {
+      "kind": "table",
+      "path": "tables/topol_report_rejected.csv",
+      "saved": "20260728-111502",
+      "meta": {
+        "rows": 62,
+        "cols": [
+          "topic",
+          "source",
+          "half1_index",
+          "half2_index",
+          "cos"
+        ]
+      }
+    },
+    "topol_nla_vocab": {
+      "kind": "pickle",
+      "path": "objects/topol_nla_vocab.pkl",
+      "saved": "20260728-111845",
+      "meta": {}
+    },
+    "topol_nla_axis_index": {
+      "kind": "table",
+      "path": "tables/topol_nla_axis_index.csv",
+      "saved": "20260728-111932",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "l_star",
+          "layer_id",
+          "effect_size_at_lstar",
+          "split_half_cos",
+          "n_docs"
+        ]
+      }
+    },
+    "topol_nla_encoder": {
+      "kind": "pickle",
+      "path": "objects/topol_nla_encoder.pkl",
+      "saved": "20260728-113003",
+      "meta": {}
+    },
+    "topol_nla_decoder": {
+      "kind": "pickle",
+      "path": "objects/topol_nla_decoder.pkl",
+      "saved": "20260728-113003",
+      "meta": {}
+    },
+    "topol_nla_history": {
+      "kind": "pickle",
+      "path": "objects/topol_nla_history.pkl",
+      "saved": "20260728-113003",
+      "meta": {}
+    },
+    "topol_nla_ar_rmse_per_doc": {
+      "kind": "array",
+      "path": "objects/topol_nla_ar_rmse_per_doc.npz",
+      "saved": "20260728-113735",
+      "meta": {
+        "shape": [
+          393207
+        ],
+        "dtype": "float64"
+      }
+    },
+    "topol_nla_ar_summary": {
+      "kind": "json",
+      "path": "objects/topol_nla_ar_summary.json",
+      "saved": "20260728-113735",
+      "meta": {}
+    },
+    "topol_nla_pole_contrast": {
+      "kind": "table",
+      "path": "tables/topol_nla_pole_contrast.csv",
+      "saved": "20260728-114015",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "axis_id",
+          "rmse_A",
+          "rmse_B",
+          "rmse_gap_B_minus_A",
+          "nA",
+          "nB",
+          "topic",
+          "contrast_index",
+          "l_star",
+          "layer_id",
+          "effect_size_at_lstar",
+          "split_half_cos",
+          "n_docs"
+        ]
+      }
+    },
+    "21_nla_pole_contrast": {
+      "kind": "figure",
+      "path": "figures/21_nla_pole_contrast.pdf",
+      "saved": "20260728-114039",
+      "meta": {
+        "png": "figures/21_nla_pole_contrast.png"
+      }
+    },
+    "topol_nla_pole_prototypes": {
+      "kind": "table",
+      "path": "tables/topol_nla_pole_prototypes.csv",
+      "saved": "20260728-114141",
+      "meta": {
+        "rows": 1086,
+        "cols": [
+          "axis_id",
+          "pole",
+          "n",
+          "decoded_prototype",
+          "nearest_real_docs",
+          "topic",
+          "contrast_index",
+          "l_star",
+          "layer_id",
+          "effect_size_at_lstar",
+          "split_half_cos",
+          "n_docs"
+        ]
+      }
+    },
+    "topol_nla_direction_sweep": {
+      "kind": "table",
+      "path": "tables/topol_nla_direction_sweep.csv",
+      "saved": "20260728-114242",
+      "meta": {
+        "rows": 2715,
+        "cols": [
+          "cluster",
+          "alpha",
+          "pole_side",
+          "decoded"
+        ]
+      }
+    },
+    "topol_pooled_axis_vectors": {
+      "kind": "table",
+      "path": "tables/topol_pooled_axis_vectors.csv",
+      "saved": "20260728-114249",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "l_star",
+          "found_layer",
+          "found_depth",
+          "ref_layer",
+          "effect_size_at_lstar",
+          "split_half_cos",
+          "magnitude_full",
+          "magnitude_2d",
+          "proj_x",
+          "proj_y",
+          "angle_2d_deg"
+        ]
+      }
+    },
+    "topol_pooled_axis_pairwise": {
+      "kind": "table",
+      "path": "tables/topol_pooled_axis_pairwise.csv",
+      "saved": "20260728-114254",
+      "meta": {
+        "rows": 147153,
+        "cols": [
+          "axis_id_i",
+          "axis_id_j",
+          "topic_i",
+          "topic_j",
+          "same_topic",
+          "cosine_similarity",
+          "angle_deg_full",
+          "euclidean_distance_full",
+          "euclidean_distance_2d"
+        ]
+      }
+    },
+    "topol_pooled_axis_geometry": {
+      "kind": "array",
+      "path": "objects/topol_pooled_axis_geometry.npz",
+      "saved": "20260728-114254",
+      "meta": {
+        "shape": [
+          543,
+          2560
+        ]
+      }
+    },
+    "topol_nla_pole_direction_summary": {
+      "kind": "table",
+      "path": "tables/topol_nla_pole_direction_summary.csv",
+      "saved": "20260728-114430",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "cluster",
+          "pole_A_words",
+          "beyond_A",
+          "midpoint",
+          "beyond_B",
+          "pole_B_words"
+        ]
+      }
+    },
+    "22_nla_pole_direction_summary": {
+      "kind": "figure",
+      "path": "figures/22_nla_pole_direction_summary.pdf",
+      "saved": "20260728-115408",
+      "meta": {
+        "png": "figures/22_nla_pole_direction_summary.png"
+      }
+    },
+    "topol_pv_full_texts": {
+      "kind": "table",
+      "path": "tables/topol_pv_full_texts.csv",
+      "saved": "20260728-120428",
+      "meta": {
+        "rows": 393207,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "l_star",
+          "layer_id",
+          "pole",
+          "doc_index_in_topic",
+          "text",
+          "n_words"
+        ]
+      }
+    },
+    "topol_pv_tfidf_terms": {
+      "kind": "table",
+      "path": "tables/topol_pv_tfidf_terms.csv",
+      "saved": "20260728-120625",
+      "meta": {
+        "rows": 21720,
+        "cols": [
+          "axis_id",
+          "topic",
+          "pole",
+          "rank",
+          "term",
+          "score"
+        ]
+      }
+    },
+    "topol_pv_tfidf_summary": {
+      "kind": "table",
+      "path": "tables/topol_pv_tfidf_summary.csv",
+      "saved": "20260728-120625",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "top_terms_A",
+          "top_terms_B",
+          "l_star",
+          "layer_id",
+          "effect_size_at_lstar",
+          "n_docs"
+        ]
+      }
+    },
+    "pv_wordcloud_axis000": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis000.pdf",
+      "saved": "20260728-120646",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis000.png"
+      }
+    },
+    "pv_wordcloud_axis001": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis001.pdf",
+      "saved": "20260728-120647",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis001.png"
+      }
+    },
+    "pv_wordcloud_axis002": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis002.pdf",
+      "saved": "20260728-120649",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis002.png"
+      }
+    },
+    "pv_wordcloud_axis003": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis003.pdf",
+      "saved": "20260728-120650",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis003.png"
+      }
+    },
+    "pv_wordcloud_axis004": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis004.pdf",
+      "saved": "20260728-120652",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis004.png"
+      }
+    },
+    "pv_wordcloud_axis005": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis005.pdf",
+      "saved": "20260728-120653",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis005.png"
+      }
+    },
+    "pv_wordcloud_axis006": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis006.pdf",
+      "saved": "20260728-120655",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis006.png"
+      }
+    },
+    "pv_wordcloud_axis007": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis007.pdf",
+      "saved": "20260728-120656",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis007.png"
+      }
+    },
+    "pv_wordcloud_axis008": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis008.pdf",
+      "saved": "20260728-120658",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis008.png"
+      }
+    },
+    "pv_wordcloud_axis009": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis009.pdf",
+      "saved": "20260728-120659",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis009.png"
+      }
+    },
+    "pv_wordcloud_axis010": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis010.pdf",
+      "saved": "20260728-120701",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis010.png"
+      }
+    },
+    "pv_wordcloud_axis011": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis011.pdf",
+      "saved": "20260728-120703",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis011.png"
+      }
+    },
+    "pv_wordcloud_axis012": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis012.pdf",
+      "saved": "20260728-120704",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis012.png"
+      }
+    },
+    "pv_wordcloud_axis013": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis013.pdf",
+      "saved": "20260728-120705",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis013.png"
+      }
+    },
+    "pv_wordcloud_axis014": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis014.pdf",
+      "saved": "20260728-120707",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis014.png"
+      }
+    },
+    "pv_wordcloud_axis015": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis015.pdf",
+      "saved": "20260728-120709",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis015.png"
+      }
+    },
+    "pv_wordcloud_axis016": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis016.pdf",
+      "saved": "20260728-120710",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis016.png"
+      }
+    },
+    "pv_wordcloud_axis017": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis017.pdf",
+      "saved": "20260728-120712",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis017.png"
+      }
+    },
+    "pv_wordcloud_axis018": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis018.pdf",
+      "saved": "20260728-120713",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis018.png"
+      }
+    },
+    "pv_wordcloud_axis019": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis019.pdf",
+      "saved": "20260728-120715",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis019.png"
+      }
+    },
+    "pv_wordcloud_axis020": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis020.pdf",
+      "saved": "20260728-120716",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis020.png"
+      }
+    },
+    "pv_wordcloud_axis021": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis021.pdf",
+      "saved": "20260728-120718",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis021.png"
+      }
+    },
+    "pv_wordcloud_axis022": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis022.pdf",
+      "saved": "20260728-120719",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis022.png"
+      }
+    },
+    "pv_wordcloud_axis023": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis023.pdf",
+      "saved": "20260728-120721",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis023.png"
+      }
+    },
+    "pv_wordcloud_axis024": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis024.pdf",
+      "saved": "20260728-120722",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis024.png"
+      }
+    },
+    "pv_wordcloud_axis025": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis025.pdf",
+      "saved": "20260728-120724",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis025.png"
+      }
+    },
+    "pv_wordcloud_axis026": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis026.pdf",
+      "saved": "20260728-120725",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis026.png"
+      }
+    },
+    "pv_wordcloud_axis027": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis027.pdf",
+      "saved": "20260728-120727",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis027.png"
+      }
+    },
+    "pv_wordcloud_axis028": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis028.pdf",
+      "saved": "20260728-120728",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis028.png"
+      }
+    },
+    "pv_wordcloud_axis029": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis029.pdf",
+      "saved": "20260728-120730",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis029.png"
+      }
+    },
+    "pv_wordcloud_axis030": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis030.pdf",
+      "saved": "20260728-120732",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis030.png"
+      }
+    },
+    "pv_wordcloud_axis031": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis031.pdf",
+      "saved": "20260728-120733",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis031.png"
+      }
+    },
+    "pv_wordcloud_axis032": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis032.pdf",
+      "saved": "20260728-120735",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis032.png"
+      }
+    },
+    "pv_wordcloud_axis033": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis033.pdf",
+      "saved": "20260728-120736",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis033.png"
+      }
+    },
+    "pv_wordcloud_axis034": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis034.pdf",
+      "saved": "20260728-120738",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis034.png"
+      }
+    },
+    "pv_wordcloud_axis035": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis035.pdf",
+      "saved": "20260728-120739",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis035.png"
+      }
+    },
+    "pv_wordcloud_axis036": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis036.pdf",
+      "saved": "20260728-120741",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis036.png"
+      }
+    },
+    "pv_wordcloud_axis037": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis037.pdf",
+      "saved": "20260728-120742",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis037.png"
+      }
+    },
+    "pv_wordcloud_axis038": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis038.pdf",
+      "saved": "20260728-120744",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis038.png"
+      }
+    },
+    "pv_wordcloud_axis039": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis039.pdf",
+      "saved": "20260728-120745",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis039.png"
+      }
+    },
+    "pv_wordcloud_axis040": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis040.pdf",
+      "saved": "20260728-120747",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis040.png"
+      }
+    },
+    "pv_wordcloud_axis041": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis041.pdf",
+      "saved": "20260728-120748",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis041.png"
+      }
+    },
+    "pv_wordcloud_axis042": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis042.pdf",
+      "saved": "20260728-120750",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis042.png"
+      }
+    },
+    "pv_wordcloud_axis043": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis043.pdf",
+      "saved": "20260728-120751",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis043.png"
+      }
+    },
+    "pv_wordcloud_axis044": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis044.pdf",
+      "saved": "20260728-120753",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis044.png"
+      }
+    },
+    "pv_wordcloud_axis045": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis045.pdf",
+      "saved": "20260728-120754",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis045.png"
+      }
+    },
+    "pv_wordcloud_axis046": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis046.pdf",
+      "saved": "20260728-120756",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis046.png"
+      }
+    },
+    "pv_wordcloud_axis047": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis047.pdf",
+      "saved": "20260728-120758",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis047.png"
+      }
+    },
+    "pv_wordcloud_axis048": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis048.pdf",
+      "saved": "20260728-120759",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis048.png"
+      }
+    },
+    "pv_wordcloud_axis049": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis049.pdf",
+      "saved": "20260728-120801",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis049.png"
+      }
+    },
+    "pv_wordcloud_axis050": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis050.pdf",
+      "saved": "20260728-120802",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis050.png"
+      }
+    },
+    "pv_wordcloud_axis051": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis051.pdf",
+      "saved": "20260728-120804",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis051.png"
+      }
+    },
+    "pv_wordcloud_axis052": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis052.pdf",
+      "saved": "20260728-120805",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis052.png"
+      }
+    },
+    "pv_wordcloud_axis053": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis053.pdf",
+      "saved": "20260728-120807",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis053.png"
+      }
+    },
+    "pv_wordcloud_axis054": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis054.pdf",
+      "saved": "20260728-120809",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis054.png"
+      }
+    },
+    "pv_wordcloud_axis055": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis055.pdf",
+      "saved": "20260728-120810",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis055.png"
+      }
+    },
+    "pv_wordcloud_axis056": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis056.pdf",
+      "saved": "20260728-120812",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis056.png"
+      }
+    },
+    "pv_wordcloud_axis057": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis057.pdf",
+      "saved": "20260728-120813",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis057.png"
+      }
+    },
+    "pv_wordcloud_axis058": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis058.pdf",
+      "saved": "20260728-120815",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis058.png"
+      }
+    },
+    "pv_wordcloud_axis059": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis059.pdf",
+      "saved": "20260728-120816",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis059.png"
+      }
+    },
+    "pv_wordcloud_axis060": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis060.pdf",
+      "saved": "20260728-120818",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis060.png"
+      }
+    },
+    "pv_wordcloud_axis061": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis061.pdf",
+      "saved": "20260728-120820",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis061.png"
+      }
+    },
+    "pv_wordcloud_axis062": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis062.pdf",
+      "saved": "20260728-120821",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis062.png"
+      }
+    },
+    "pv_wordcloud_axis063": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis063.pdf",
+      "saved": "20260728-120823",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis063.png"
+      }
+    },
+    "pv_wordcloud_axis064": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis064.pdf",
+      "saved": "20260728-120824",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis064.png"
+      }
+    },
+    "pv_wordcloud_axis065": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis065.pdf",
+      "saved": "20260728-120826",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis065.png"
+      }
+    },
+    "pv_wordcloud_axis066": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis066.pdf",
+      "saved": "20260728-120827",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis066.png"
+      }
+    },
+    "pv_wordcloud_axis067": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis067.pdf",
+      "saved": "20260728-120829",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis067.png"
+      }
+    },
+    "pv_wordcloud_axis068": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis068.pdf",
+      "saved": "20260728-120830",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis068.png"
+      }
+    },
+    "pv_wordcloud_axis069": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis069.pdf",
+      "saved": "20260728-120832",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis069.png"
+      }
+    },
+    "pv_wordcloud_axis070": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis070.pdf",
+      "saved": "20260728-120833",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis070.png"
+      }
+    },
+    "pv_wordcloud_axis071": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis071.pdf",
+      "saved": "20260728-120835",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis071.png"
+      }
+    },
+    "pv_wordcloud_axis072": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis072.pdf",
+      "saved": "20260728-120836",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis072.png"
+      }
+    },
+    "pv_wordcloud_axis073": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis073.pdf",
+      "saved": "20260728-120838",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis073.png"
+      }
+    },
+    "pv_wordcloud_axis074": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis074.pdf",
+      "saved": "20260728-120839",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis074.png"
+      }
+    },
+    "pv_wordcloud_axis075": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis075.pdf",
+      "saved": "20260728-120841",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis075.png"
+      }
+    },
+    "pv_wordcloud_axis076": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis076.pdf",
+      "saved": "20260728-120843",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis076.png"
+      }
+    },
+    "pv_wordcloud_axis077": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis077.pdf",
+      "saved": "20260728-120844",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis077.png"
+      }
+    },
+    "pv_wordcloud_axis078": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis078.pdf",
+      "saved": "20260728-120845",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis078.png"
+      }
+    },
+    "pv_wordcloud_axis079": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis079.pdf",
+      "saved": "20260728-120847",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis079.png"
+      }
+    },
+    "pv_wordcloud_axis080": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis080.pdf",
+      "saved": "20260728-120849",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis080.png"
+      }
+    },
+    "pv_wordcloud_axis081": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis081.pdf",
+      "saved": "20260728-120850",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis081.png"
+      }
+    },
+    "pv_wordcloud_axis082": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis082.pdf",
+      "saved": "20260728-120851",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis082.png"
+      }
+    },
+    "pv_wordcloud_axis083": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis083.pdf",
+      "saved": "20260728-120853",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis083.png"
+      }
+    },
+    "pv_wordcloud_axis084": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis084.pdf",
+      "saved": "20260728-120855",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis084.png"
+      }
+    },
+    "pv_wordcloud_axis085": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis085.pdf",
+      "saved": "20260728-120856",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis085.png"
+      }
+    },
+    "pv_wordcloud_axis086": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis086.pdf",
+      "saved": "20260728-120858",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis086.png"
+      }
+    },
+    "pv_wordcloud_axis087": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis087.pdf",
+      "saved": "20260728-120900",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis087.png"
+      }
+    },
+    "pv_wordcloud_axis088": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis088.pdf",
+      "saved": "20260728-120901",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis088.png"
+      }
+    },
+    "pv_wordcloud_axis089": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis089.pdf",
+      "saved": "20260728-120902",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis089.png"
+      }
+    },
+    "pv_wordcloud_axis090": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis090.pdf",
+      "saved": "20260728-120904",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis090.png"
+      }
+    },
+    "pv_wordcloud_axis091": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis091.pdf",
+      "saved": "20260728-120906",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis091.png"
+      }
+    },
+    "pv_wordcloud_axis092": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis092.pdf",
+      "saved": "20260728-120907",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis092.png"
+      }
+    },
+    "pv_wordcloud_axis093": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis093.pdf",
+      "saved": "20260728-120909",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis093.png"
+      }
+    },
+    "pv_wordcloud_axis094": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis094.pdf",
+      "saved": "20260728-120910",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis094.png"
+      }
+    },
+    "pv_wordcloud_axis095": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis095.pdf",
+      "saved": "20260728-120912",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis095.png"
+      }
+    },
+    "pv_wordcloud_axis096": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis096.pdf",
+      "saved": "20260728-120913",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis096.png"
+      }
+    },
+    "pv_wordcloud_axis097": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis097.pdf",
+      "saved": "20260728-120915",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis097.png"
+      }
+    },
+    "pv_wordcloud_axis098": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis098.pdf",
+      "saved": "20260728-120916",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis098.png"
+      }
+    },
+    "pv_wordcloud_axis099": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis099.pdf",
+      "saved": "20260728-120918",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis099.png"
+      }
+    },
+    "pv_wordcloud_axis100": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis100.pdf",
+      "saved": "20260728-120919",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis100.png"
+      }
+    },
+    "pv_wordcloud_axis101": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis101.pdf",
+      "saved": "20260728-120921",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis101.png"
+      }
+    },
+    "pv_wordcloud_axis102": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis102.pdf",
+      "saved": "20260728-120922",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis102.png"
+      }
+    },
+    "pv_wordcloud_axis103": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis103.pdf",
+      "saved": "20260728-120924",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis103.png"
+      }
+    },
+    "pv_wordcloud_axis104": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis104.pdf",
+      "saved": "20260728-120926",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis104.png"
+      }
+    },
+    "pv_wordcloud_axis105": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis105.pdf",
+      "saved": "20260728-120927",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis105.png"
+      }
+    },
+    "pv_wordcloud_axis106": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis106.pdf",
+      "saved": "20260728-120929",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis106.png"
+      }
+    },
+    "pv_wordcloud_axis107": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis107.pdf",
+      "saved": "20260728-120931",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis107.png"
+      }
+    },
+    "pv_wordcloud_axis108": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis108.pdf",
+      "saved": "20260728-120932",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis108.png"
+      }
+    },
+    "pv_wordcloud_axis109": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis109.pdf",
+      "saved": "20260728-120934",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis109.png"
+      }
+    },
+    "pv_wordcloud_axis110": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis110.pdf",
+      "saved": "20260728-120935",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis110.png"
+      }
+    },
+    "pv_wordcloud_axis111": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis111.pdf",
+      "saved": "20260728-120937",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis111.png"
+      }
+    },
+    "pv_wordcloud_axis112": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis112.pdf",
+      "saved": "20260728-120938",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis112.png"
+      }
+    },
+    "pv_wordcloud_axis113": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis113.pdf",
+      "saved": "20260728-120940",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis113.png"
+      }
+    },
+    "pv_wordcloud_axis114": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis114.pdf",
+      "saved": "20260728-120941",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis114.png"
+      }
+    },
+    "pv_wordcloud_axis115": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis115.pdf",
+      "saved": "20260728-120943",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis115.png"
+      }
+    },
+    "pv_wordcloud_axis116": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis116.pdf",
+      "saved": "20260728-120945",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis116.png"
+      }
+    },
+    "pv_wordcloud_axis117": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis117.pdf",
+      "saved": "20260728-120946",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis117.png"
+      }
+    },
+    "pv_wordcloud_axis118": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis118.pdf",
+      "saved": "20260728-120948",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis118.png"
+      }
+    },
+    "pv_wordcloud_axis119": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis119.pdf",
+      "saved": "20260728-120949",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis119.png"
+      }
+    },
+    "pv_wordcloud_axis120": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis120.pdf",
+      "saved": "20260728-120951",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis120.png"
+      }
+    },
+    "pv_wordcloud_axis121": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis121.pdf",
+      "saved": "20260728-120952",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis121.png"
+      }
+    },
+    "pv_wordcloud_axis122": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis122.pdf",
+      "saved": "20260728-120954",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis122.png"
+      }
+    },
+    "pv_wordcloud_axis123": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis123.pdf",
+      "saved": "20260728-120955",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis123.png"
+      }
+    },
+    "pv_wordcloud_axis124": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis124.pdf",
+      "saved": "20260728-120957",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis124.png"
+      }
+    },
+    "pv_wordcloud_axis125": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis125.pdf",
+      "saved": "20260728-120959",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis125.png"
+      }
+    },
+    "pv_wordcloud_axis126": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis126.pdf",
+      "saved": "20260728-121000",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis126.png"
+      }
+    },
+    "pv_wordcloud_axis127": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis127.pdf",
+      "saved": "20260728-121002",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis127.png"
+      }
+    },
+    "pv_wordcloud_axis128": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis128.pdf",
+      "saved": "20260728-121003",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis128.png"
+      }
+    },
+    "pv_wordcloud_axis129": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis129.pdf",
+      "saved": "20260728-121005",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis129.png"
+      }
+    },
+    "pv_wordcloud_axis130": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis130.pdf",
+      "saved": "20260728-121007",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis130.png"
+      }
+    },
+    "pv_wordcloud_axis131": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis131.pdf",
+      "saved": "20260728-121008",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis131.png"
+      }
+    },
+    "pv_wordcloud_axis132": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis132.pdf",
+      "saved": "20260728-121010",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis132.png"
+      }
+    },
+    "pv_wordcloud_axis133": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis133.pdf",
+      "saved": "20260728-121011",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis133.png"
+      }
+    },
+    "pv_wordcloud_axis134": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis134.pdf",
+      "saved": "20260728-121013",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis134.png"
+      }
+    },
+    "pv_wordcloud_axis135": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis135.pdf",
+      "saved": "20260728-121014",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis135.png"
+      }
+    },
+    "pv_wordcloud_axis136": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis136.pdf",
+      "saved": "20260728-121016",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis136.png"
+      }
+    },
+    "pv_wordcloud_axis137": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis137.pdf",
+      "saved": "20260728-121017",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis137.png"
+      }
+    },
+    "pv_wordcloud_axis138": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis138.pdf",
+      "saved": "20260728-121019",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis138.png"
+      }
+    },
+    "pv_wordcloud_axis139": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis139.pdf",
+      "saved": "20260728-121020",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis139.png"
+      }
+    },
+    "pv_wordcloud_axis140": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis140.pdf",
+      "saved": "20260728-121022",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis140.png"
+      }
+    },
+    "pv_wordcloud_axis141": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis141.pdf",
+      "saved": "20260728-121024",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis141.png"
+      }
+    },
+    "pv_wordcloud_axis142": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis142.pdf",
+      "saved": "20260728-121025",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis142.png"
+      }
+    },
+    "pv_wordcloud_axis143": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis143.pdf",
+      "saved": "20260728-121027",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis143.png"
+      }
+    },
+    "pv_wordcloud_axis144": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis144.pdf",
+      "saved": "20260728-121028",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis144.png"
+      }
+    },
+    "pv_wordcloud_axis145": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis145.pdf",
+      "saved": "20260728-121030",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis145.png"
+      }
+    },
+    "pv_wordcloud_axis146": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis146.pdf",
+      "saved": "20260728-121031",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis146.png"
+      }
+    },
+    "pv_wordcloud_axis147": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis147.pdf",
+      "saved": "20260728-121033",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis147.png"
+      }
+    },
+    "pv_wordcloud_axis148": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis148.pdf",
+      "saved": "20260728-121034",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis148.png"
+      }
+    },
+    "pv_wordcloud_axis149": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis149.pdf",
+      "saved": "20260728-121036",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis149.png"
+      }
+    },
+    "pv_wordcloud_axis150": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis150.pdf",
+      "saved": "20260728-121037",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis150.png"
+      }
+    },
+    "pv_wordcloud_axis151": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis151.pdf",
+      "saved": "20260728-121039",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis151.png"
+      }
+    },
+    "pv_wordcloud_axis152": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis152.pdf",
+      "saved": "20260728-121041",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis152.png"
+      }
+    },
+    "pv_wordcloud_axis153": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis153.pdf",
+      "saved": "20260728-121042",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis153.png"
+      }
+    },
+    "pv_wordcloud_axis154": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis154.pdf",
+      "saved": "20260728-121044",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis154.png"
+      }
+    },
+    "pv_wordcloud_axis155": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis155.pdf",
+      "saved": "20260728-121045",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis155.png"
+      }
+    },
+    "pv_wordcloud_axis156": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis156.pdf",
+      "saved": "20260728-121047",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis156.png"
+      }
+    },
+    "pv_wordcloud_axis157": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis157.pdf",
+      "saved": "20260728-121048",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis157.png"
+      }
+    },
+    "pv_wordcloud_axis158": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis158.pdf",
+      "saved": "20260728-121050",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis158.png"
+      }
+    },
+    "pv_wordcloud_axis159": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis159.pdf",
+      "saved": "20260728-121051",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis159.png"
+      }
+    },
+    "pv_wordcloud_axis160": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis160.pdf",
+      "saved": "20260728-121053",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis160.png"
+      }
+    },
+    "pv_wordcloud_axis161": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis161.pdf",
+      "saved": "20260728-121054",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis161.png"
+      }
+    },
+    "pv_wordcloud_axis162": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis162.pdf",
+      "saved": "20260728-121056",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis162.png"
+      }
+    },
+    "pv_wordcloud_axis163": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis163.pdf",
+      "saved": "20260728-121058",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis163.png"
+      }
+    },
+    "pv_wordcloud_axis164": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis164.pdf",
+      "saved": "20260728-121059",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis164.png"
+      }
+    },
+    "pv_wordcloud_axis165": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis165.pdf",
+      "saved": "20260728-121101",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis165.png"
+      }
+    },
+    "pv_wordcloud_axis166": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis166.pdf",
+      "saved": "20260728-121102",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis166.png"
+      }
+    },
+    "pv_wordcloud_axis167": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis167.pdf",
+      "saved": "20260728-121104",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis167.png"
+      }
+    },
+    "pv_wordcloud_axis168": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis168.pdf",
+      "saved": "20260728-121105",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis168.png"
+      }
+    },
+    "pv_wordcloud_axis169": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis169.pdf",
+      "saved": "20260728-121107",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis169.png"
+      }
+    },
+    "pv_wordcloud_axis170": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis170.pdf",
+      "saved": "20260728-121108",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis170.png"
+      }
+    },
+    "pv_wordcloud_axis171": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis171.pdf",
+      "saved": "20260728-121110",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis171.png"
+      }
+    },
+    "pv_wordcloud_axis172": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis172.pdf",
+      "saved": "20260728-121112",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis172.png"
+      }
+    },
+    "pv_wordcloud_axis173": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis173.pdf",
+      "saved": "20260728-121113",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis173.png"
+      }
+    },
+    "pv_wordcloud_axis174": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis174.pdf",
+      "saved": "20260728-121115",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis174.png"
+      }
+    },
+    "pv_wordcloud_axis175": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis175.pdf",
+      "saved": "20260728-121116",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis175.png"
+      }
+    },
+    "pv_wordcloud_axis176": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis176.pdf",
+      "saved": "20260728-121118",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis176.png"
+      }
+    },
+    "pv_wordcloud_axis177": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis177.pdf",
+      "saved": "20260728-121120",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis177.png"
+      }
+    },
+    "pv_wordcloud_axis178": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis178.pdf",
+      "saved": "20260728-121121",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis178.png"
+      }
+    },
+    "pv_wordcloud_axis179": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis179.pdf",
+      "saved": "20260728-121123",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis179.png"
+      }
+    },
+    "pv_wordcloud_axis180": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis180.pdf",
+      "saved": "20260728-121125",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis180.png"
+      }
+    },
+    "pv_wordcloud_axis181": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis181.pdf",
+      "saved": "20260728-121126",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis181.png"
+      }
+    },
+    "pv_wordcloud_axis182": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis182.pdf",
+      "saved": "20260728-121128",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis182.png"
+      }
+    },
+    "pv_wordcloud_axis183": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis183.pdf",
+      "saved": "20260728-121129",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis183.png"
+      }
+    },
+    "pv_wordcloud_axis184": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis184.pdf",
+      "saved": "20260728-121131",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis184.png"
+      }
+    },
+    "pv_wordcloud_axis185": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis185.pdf",
+      "saved": "20260728-121133",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis185.png"
+      }
+    },
+    "pv_wordcloud_axis186": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis186.pdf",
+      "saved": "20260728-121134",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis186.png"
+      }
+    },
+    "pv_wordcloud_axis187": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis187.pdf",
+      "saved": "20260728-121136",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis187.png"
+      }
+    },
+    "pv_wordcloud_axis188": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis188.pdf",
+      "saved": "20260728-121137",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis188.png"
+      }
+    },
+    "pv_wordcloud_axis189": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis189.pdf",
+      "saved": "20260728-121139",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis189.png"
+      }
+    },
+    "pv_wordcloud_axis190": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis190.pdf",
+      "saved": "20260728-121140",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis190.png"
+      }
+    },
+    "pv_wordcloud_axis191": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis191.pdf",
+      "saved": "20260728-121142",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis191.png"
+      }
+    },
+    "pv_wordcloud_axis192": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis192.pdf",
+      "saved": "20260728-121144",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis192.png"
+      }
+    },
+    "pv_wordcloud_axis193": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis193.pdf",
+      "saved": "20260728-121145",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis193.png"
+      }
+    },
+    "pv_wordcloud_axis194": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis194.pdf",
+      "saved": "20260728-121147",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis194.png"
+      }
+    },
+    "pv_wordcloud_axis195": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis195.pdf",
+      "saved": "20260728-121149",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis195.png"
+      }
+    },
+    "pv_wordcloud_axis196": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis196.pdf",
+      "saved": "20260728-121150",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis196.png"
+      }
+    },
+    "pv_wordcloud_axis197": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis197.pdf",
+      "saved": "20260728-121152",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis197.png"
+      }
+    },
+    "pv_wordcloud_axis198": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis198.pdf",
+      "saved": "20260728-121154",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis198.png"
+      }
+    },
+    "pv_wordcloud_axis199": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis199.pdf",
+      "saved": "20260728-121156",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis199.png"
+      }
+    },
+    "pv_wordcloud_axis200": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis200.pdf",
+      "saved": "20260728-121157",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis200.png"
+      }
+    },
+    "pv_wordcloud_axis201": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis201.pdf",
+      "saved": "20260728-121159",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis201.png"
+      }
+    },
+    "pv_wordcloud_axis202": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis202.pdf",
+      "saved": "20260728-121200",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis202.png"
+      }
+    },
+    "pv_wordcloud_axis203": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis203.pdf",
+      "saved": "20260728-121202",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis203.png"
+      }
+    },
+    "pv_wordcloud_axis204": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis204.pdf",
+      "saved": "20260728-121203",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis204.png"
+      }
+    },
+    "pv_wordcloud_axis205": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis205.pdf",
+      "saved": "20260728-121205",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis205.png"
+      }
+    },
+    "pv_wordcloud_axis206": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis206.pdf",
+      "saved": "20260728-121207",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis206.png"
+      }
+    },
+    "pv_wordcloud_axis207": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis207.pdf",
+      "saved": "20260728-121208",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis207.png"
+      }
+    },
+    "pv_wordcloud_axis208": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis208.pdf",
+      "saved": "20260728-121210",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis208.png"
+      }
+    },
+    "pv_wordcloud_axis209": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis209.pdf",
+      "saved": "20260728-121211",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis209.png"
+      }
+    },
+    "pv_wordcloud_axis210": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis210.pdf",
+      "saved": "20260728-121213",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis210.png"
+      }
+    },
+    "pv_wordcloud_axis211": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis211.pdf",
+      "saved": "20260728-121215",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis211.png"
+      }
+    },
+    "pv_wordcloud_axis212": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis212.pdf",
+      "saved": "20260728-121216",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis212.png"
+      }
+    },
+    "pv_wordcloud_axis213": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis213.pdf",
+      "saved": "20260728-121218",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis213.png"
+      }
+    },
+    "pv_wordcloud_axis214": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis214.pdf",
+      "saved": "20260728-121219",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis214.png"
+      }
+    },
+    "pv_wordcloud_axis215": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis215.pdf",
+      "saved": "20260728-121221",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis215.png"
+      }
+    },
+    "pv_wordcloud_axis216": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis216.pdf",
+      "saved": "20260728-121222",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis216.png"
+      }
+    },
+    "pv_wordcloud_axis217": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis217.pdf",
+      "saved": "20260728-121224",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis217.png"
+      }
+    },
+    "pv_wordcloud_axis218": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis218.pdf",
+      "saved": "20260728-121226",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis218.png"
+      }
+    },
+    "pv_wordcloud_axis219": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis219.pdf",
+      "saved": "20260728-121227",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis219.png"
+      }
+    },
+    "pv_wordcloud_axis220": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis220.pdf",
+      "saved": "20260728-121229",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis220.png"
+      }
+    },
+    "pv_wordcloud_axis221": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis221.pdf",
+      "saved": "20260728-121230",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis221.png"
+      }
+    },
+    "pv_wordcloud_axis222": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis222.pdf",
+      "saved": "20260728-121232",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis222.png"
+      }
+    },
+    "pv_wordcloud_axis223": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis223.pdf",
+      "saved": "20260728-121234",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis223.png"
+      }
+    },
+    "pv_wordcloud_axis224": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis224.pdf",
+      "saved": "20260728-121235",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis224.png"
+      }
+    },
+    "pv_wordcloud_axis225": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis225.pdf",
+      "saved": "20260728-121237",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis225.png"
+      }
+    },
+    "pv_wordcloud_axis226": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis226.pdf",
+      "saved": "20260728-121239",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis226.png"
+      }
+    },
+    "pv_wordcloud_axis227": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis227.pdf",
+      "saved": "20260728-121240",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis227.png"
+      }
+    },
+    "pv_wordcloud_axis228": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis228.pdf",
+      "saved": "20260728-121242",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis228.png"
+      }
+    },
+    "pv_wordcloud_axis229": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis229.pdf",
+      "saved": "20260728-121244",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis229.png"
+      }
+    },
+    "pv_wordcloud_axis230": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis230.pdf",
+      "saved": "20260728-121245",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis230.png"
+      }
+    },
+    "pv_wordcloud_axis231": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis231.pdf",
+      "saved": "20260728-121247",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis231.png"
+      }
+    },
+    "pv_wordcloud_axis232": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis232.pdf",
+      "saved": "20260728-121249",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis232.png"
+      }
+    },
+    "pv_wordcloud_axis233": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis233.pdf",
+      "saved": "20260728-121251",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis233.png"
+      }
+    },
+    "pv_wordcloud_axis234": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis234.pdf",
+      "saved": "20260728-121253",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis234.png"
+      }
+    },
+    "pv_wordcloud_axis235": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis235.pdf",
+      "saved": "20260728-121254",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis235.png"
+      }
+    },
+    "pv_wordcloud_axis236": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis236.pdf",
+      "saved": "20260728-121256",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis236.png"
+      }
+    },
+    "pv_wordcloud_axis237": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis237.pdf",
+      "saved": "20260728-121258",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis237.png"
+      }
+    },
+    "pv_wordcloud_axis238": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis238.pdf",
+      "saved": "20260728-121300",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis238.png"
+      }
+    },
+    "pv_wordcloud_axis239": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis239.pdf",
+      "saved": "20260728-121302",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis239.png"
+      }
+    },
+    "pv_wordcloud_axis240": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis240.pdf",
+      "saved": "20260728-121304",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis240.png"
+      }
+    },
+    "pv_wordcloud_axis241": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis241.pdf",
+      "saved": "20260728-121306",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis241.png"
+      }
+    },
+    "pv_wordcloud_axis242": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis242.pdf",
+      "saved": "20260728-121308",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis242.png"
+      }
+    },
+    "pv_wordcloud_axis243": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis243.pdf",
+      "saved": "20260728-121310",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis243.png"
+      }
+    },
+    "pv_wordcloud_axis244": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis244.pdf",
+      "saved": "20260728-121312",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis244.png"
+      }
+    },
+    "pv_wordcloud_axis245": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis245.pdf",
+      "saved": "20260728-121314",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis245.png"
+      }
+    },
+    "pv_wordcloud_axis246": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis246.pdf",
+      "saved": "20260728-121315",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis246.png"
+      }
+    },
+    "pv_wordcloud_axis247": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis247.pdf",
+      "saved": "20260728-121317",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis247.png"
+      }
+    },
+    "pv_wordcloud_axis248": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis248.pdf",
+      "saved": "20260728-121319",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis248.png"
+      }
+    },
+    "pv_wordcloud_axis249": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis249.pdf",
+      "saved": "20260728-121321",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis249.png"
+      }
+    },
+    "pv_wordcloud_axis250": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis250.pdf",
+      "saved": "20260728-121323",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis250.png"
+      }
+    },
+    "pv_wordcloud_axis251": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis251.pdf",
+      "saved": "20260728-121325",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis251.png"
+      }
+    },
+    "pv_wordcloud_axis252": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis252.pdf",
+      "saved": "20260728-121326",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis252.png"
+      }
+    },
+    "pv_wordcloud_axis253": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis253.pdf",
+      "saved": "20260728-121328",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis253.png"
+      }
+    },
+    "pv_wordcloud_axis254": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis254.pdf",
+      "saved": "20260728-121330",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis254.png"
+      }
+    },
+    "pv_wordcloud_axis255": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis255.pdf",
+      "saved": "20260728-121332",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis255.png"
+      }
+    },
+    "pv_wordcloud_axis256": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis256.pdf",
+      "saved": "20260728-121334",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis256.png"
+      }
+    },
+    "pv_wordcloud_axis257": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis257.pdf",
+      "saved": "20260728-121336",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis257.png"
+      }
+    },
+    "pv_wordcloud_axis258": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis258.pdf",
+      "saved": "20260728-121338",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis258.png"
+      }
+    },
+    "pv_wordcloud_axis259": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis259.pdf",
+      "saved": "20260728-121340",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis259.png"
+      }
+    },
+    "pv_wordcloud_axis260": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis260.pdf",
+      "saved": "20260728-121342",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis260.png"
+      }
+    },
+    "pv_wordcloud_axis261": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis261.pdf",
+      "saved": "20260728-121344",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis261.png"
+      }
+    },
+    "pv_wordcloud_axis262": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis262.pdf",
+      "saved": "20260728-121346",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis262.png"
+      }
+    },
+    "pv_wordcloud_axis263": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis263.pdf",
+      "saved": "20260728-121347",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis263.png"
+      }
+    },
+    "pv_wordcloud_axis264": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis264.pdf",
+      "saved": "20260728-121349",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis264.png"
+      }
+    },
+    "pv_wordcloud_axis265": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis265.pdf",
+      "saved": "20260728-121351",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis265.png"
+      }
+    },
+    "pv_wordcloud_axis266": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis266.pdf",
+      "saved": "20260728-121353",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis266.png"
+      }
+    },
+    "pv_wordcloud_axis267": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis267.pdf",
+      "saved": "20260728-121355",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis267.png"
+      }
+    },
+    "pv_wordcloud_axis268": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis268.pdf",
+      "saved": "20260728-121357",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis268.png"
+      }
+    },
+    "pv_wordcloud_axis269": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis269.pdf",
+      "saved": "20260728-121359",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis269.png"
+      }
+    },
+    "pv_wordcloud_axis270": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis270.pdf",
+      "saved": "20260728-121400",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis270.png"
+      }
+    },
+    "pv_wordcloud_axis271": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis271.pdf",
+      "saved": "20260728-121402",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis271.png"
+      }
+    },
+    "pv_wordcloud_axis272": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis272.pdf",
+      "saved": "20260728-121404",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis272.png"
+      }
+    },
+    "pv_wordcloud_axis273": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis273.pdf",
+      "saved": "20260728-121406",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis273.png"
+      }
+    },
+    "pv_wordcloud_axis274": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis274.pdf",
+      "saved": "20260728-121408",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis274.png"
+      }
+    },
+    "pv_wordcloud_axis275": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis275.pdf",
+      "saved": "20260728-121409",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis275.png"
+      }
+    },
+    "pv_wordcloud_axis276": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis276.pdf",
+      "saved": "20260728-121411",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis276.png"
+      }
+    },
+    "pv_wordcloud_axis277": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis277.pdf",
+      "saved": "20260728-121413",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis277.png"
+      }
+    },
+    "pv_wordcloud_axis278": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis278.pdf",
+      "saved": "20260728-121415",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis278.png"
+      }
+    },
+    "pv_wordcloud_axis279": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis279.pdf",
+      "saved": "20260728-121417",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis279.png"
+      }
+    },
+    "pv_wordcloud_axis280": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis280.pdf",
+      "saved": "20260728-121418",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis280.png"
+      }
+    },
+    "pv_wordcloud_axis281": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis281.pdf",
+      "saved": "20260728-121420",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis281.png"
+      }
+    },
+    "pv_wordcloud_axis282": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis282.pdf",
+      "saved": "20260728-121422",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis282.png"
+      }
+    },
+    "pv_wordcloud_axis283": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis283.pdf",
+      "saved": "20260728-121423",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis283.png"
+      }
+    },
+    "pv_wordcloud_axis284": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis284.pdf",
+      "saved": "20260728-121425",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis284.png"
+      }
+    },
+    "pv_wordcloud_axis285": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis285.pdf",
+      "saved": "20260728-121426",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis285.png"
+      }
+    },
+    "pv_wordcloud_axis286": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis286.pdf",
+      "saved": "20260728-121428",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis286.png"
+      }
+    },
+    "pv_wordcloud_axis287": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis287.pdf",
+      "saved": "20260728-121430",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis287.png"
+      }
+    },
+    "pv_wordcloud_axis288": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis288.pdf",
+      "saved": "20260728-121431",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis288.png"
+      }
+    },
+    "pv_wordcloud_axis289": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis289.pdf",
+      "saved": "20260728-121433",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis289.png"
+      }
+    },
+    "pv_wordcloud_axis290": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis290.pdf",
+      "saved": "20260728-121435",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis290.png"
+      }
+    },
+    "pv_wordcloud_axis291": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis291.pdf",
+      "saved": "20260728-121436",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis291.png"
+      }
+    },
+    "pv_wordcloud_axis292": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis292.pdf",
+      "saved": "20260728-121438",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis292.png"
+      }
+    },
+    "pv_wordcloud_axis293": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis293.pdf",
+      "saved": "20260728-121439",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis293.png"
+      }
+    },
+    "pv_wordcloud_axis294": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis294.pdf",
+      "saved": "20260728-121441",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis294.png"
+      }
+    },
+    "pv_wordcloud_axis295": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis295.pdf",
+      "saved": "20260728-121443",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis295.png"
+      }
+    },
+    "pv_wordcloud_axis296": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis296.pdf",
+      "saved": "20260728-121445",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis296.png"
+      }
+    },
+    "pv_wordcloud_axis297": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis297.pdf",
+      "saved": "20260728-121447",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis297.png"
+      }
+    },
+    "pv_wordcloud_axis298": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis298.pdf",
+      "saved": "20260728-121448",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis298.png"
+      }
+    },
+    "pv_wordcloud_axis299": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis299.pdf",
+      "saved": "20260728-121450",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis299.png"
+      }
+    },
+    "pv_wordcloud_axis300": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis300.pdf",
+      "saved": "20260728-121452",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis300.png"
+      }
+    },
+    "pv_wordcloud_axis301": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis301.pdf",
+      "saved": "20260728-121453",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis301.png"
+      }
+    },
+    "pv_wordcloud_axis302": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis302.pdf",
+      "saved": "20260728-121455",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis302.png"
+      }
+    },
+    "pv_wordcloud_axis303": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis303.pdf",
+      "saved": "20260728-121456",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis303.png"
+      }
+    },
+    "pv_wordcloud_axis304": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis304.pdf",
+      "saved": "20260728-121458",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis304.png"
+      }
+    },
+    "pv_wordcloud_axis305": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis305.pdf",
+      "saved": "20260728-121500",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis305.png"
+      }
+    },
+    "pv_wordcloud_axis306": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis306.pdf",
+      "saved": "20260728-121501",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis306.png"
+      }
+    },
+    "pv_wordcloud_axis307": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis307.pdf",
+      "saved": "20260728-121503",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis307.png"
+      }
+    },
+    "pv_wordcloud_axis308": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis308.pdf",
+      "saved": "20260728-121505",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis308.png"
+      }
+    },
+    "pv_wordcloud_axis309": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis309.pdf",
+      "saved": "20260728-121506",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis309.png"
+      }
+    },
+    "pv_wordcloud_axis310": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis310.pdf",
+      "saved": "20260728-121508",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis310.png"
+      }
+    },
+    "pv_wordcloud_axis311": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis311.pdf",
+      "saved": "20260728-121510",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis311.png"
+      }
+    },
+    "pv_wordcloud_axis312": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis312.pdf",
+      "saved": "20260728-121511",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis312.png"
+      }
+    },
+    "pv_wordcloud_axis313": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis313.pdf",
+      "saved": "20260728-121513",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis313.png"
+      }
+    },
+    "pv_wordcloud_axis314": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis314.pdf",
+      "saved": "20260728-121514",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis314.png"
+      }
+    },
+    "pv_wordcloud_axis315": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis315.pdf",
+      "saved": "20260728-121516",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis315.png"
+      }
+    },
+    "pv_wordcloud_axis316": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis316.pdf",
+      "saved": "20260728-121518",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis316.png"
+      }
+    },
+    "pv_wordcloud_axis317": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis317.pdf",
+      "saved": "20260728-121520",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis317.png"
+      }
+    },
+    "pv_wordcloud_axis318": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis318.pdf",
+      "saved": "20260728-121521",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis318.png"
+      }
+    },
+    "pv_wordcloud_axis319": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis319.pdf",
+      "saved": "20260728-121523",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis319.png"
+      }
+    },
+    "pv_wordcloud_axis320": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis320.pdf",
+      "saved": "20260728-121525",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis320.png"
+      }
+    },
+    "pv_wordcloud_axis321": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis321.pdf",
+      "saved": "20260728-121526",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis321.png"
+      }
+    },
+    "pv_wordcloud_axis322": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis322.pdf",
+      "saved": "20260728-121528",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis322.png"
+      }
+    },
+    "pv_wordcloud_axis323": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis323.pdf",
+      "saved": "20260728-121530",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis323.png"
+      }
+    },
+    "pv_wordcloud_axis324": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis324.pdf",
+      "saved": "20260728-121531",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis324.png"
+      }
+    },
+    "pv_wordcloud_axis325": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis325.pdf",
+      "saved": "20260728-121533",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis325.png"
+      }
+    },
+    "pv_wordcloud_axis326": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis326.pdf",
+      "saved": "20260728-121534",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis326.png"
+      }
+    },
+    "pv_wordcloud_axis327": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis327.pdf",
+      "saved": "20260728-121536",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis327.png"
+      }
+    },
+    "pv_wordcloud_axis328": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis328.pdf",
+      "saved": "20260728-121538",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis328.png"
+      }
+    },
+    "pv_wordcloud_axis329": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis329.pdf",
+      "saved": "20260728-121539",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis329.png"
+      }
+    },
+    "pv_wordcloud_axis330": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis330.pdf",
+      "saved": "20260728-121541",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis330.png"
+      }
+    },
+    "pv_wordcloud_axis331": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis331.pdf",
+      "saved": "20260728-121543",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis331.png"
+      }
+    },
+    "pv_wordcloud_axis332": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis332.pdf",
+      "saved": "20260728-121545",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis332.png"
+      }
+    },
+    "pv_wordcloud_axis333": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis333.pdf",
+      "saved": "20260728-121546",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis333.png"
+      }
+    },
+    "pv_wordcloud_axis334": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis334.pdf",
+      "saved": "20260728-121548",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis334.png"
+      }
+    },
+    "pv_wordcloud_axis335": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis335.pdf",
+      "saved": "20260728-121549",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis335.png"
+      }
+    },
+    "pv_wordcloud_axis336": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis336.pdf",
+      "saved": "20260728-121551",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis336.png"
+      }
+    },
+    "pv_wordcloud_axis337": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis337.pdf",
+      "saved": "20260728-121553",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis337.png"
+      }
+    },
+    "pv_wordcloud_axis338": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis338.pdf",
+      "saved": "20260728-121555",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis338.png"
+      }
+    },
+    "pv_wordcloud_axis339": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis339.pdf",
+      "saved": "20260728-121556",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis339.png"
+      }
+    },
+    "pv_wordcloud_axis340": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis340.pdf",
+      "saved": "20260728-121558",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis340.png"
+      }
+    },
+    "pv_wordcloud_axis341": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis341.pdf",
+      "saved": "20260728-121600",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis341.png"
+      }
+    },
+    "pv_wordcloud_axis342": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis342.pdf",
+      "saved": "20260728-121601",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis342.png"
+      }
+    },
+    "pv_wordcloud_axis343": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis343.pdf",
+      "saved": "20260728-121603",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis343.png"
+      }
+    },
+    "pv_wordcloud_axis344": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis344.pdf",
+      "saved": "20260728-121605",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis344.png"
+      }
+    },
+    "pv_wordcloud_axis345": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis345.pdf",
+      "saved": "20260728-121606",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis345.png"
+      }
+    },
+    "pv_wordcloud_axis346": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis346.pdf",
+      "saved": "20260728-121608",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis346.png"
+      }
+    },
+    "pv_wordcloud_axis347": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis347.pdf",
+      "saved": "20260728-121610",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis347.png"
+      }
+    },
+    "pv_wordcloud_axis348": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis348.pdf",
+      "saved": "20260728-121611",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis348.png"
+      }
+    },
+    "pv_wordcloud_axis349": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis349.pdf",
+      "saved": "20260728-121613",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis349.png"
+      }
+    },
+    "pv_wordcloud_axis350": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis350.pdf",
+      "saved": "20260728-121615",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis350.png"
+      }
+    },
+    "pv_wordcloud_axis351": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis351.pdf",
+      "saved": "20260728-121616",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis351.png"
+      }
+    },
+    "pv_wordcloud_axis352": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis352.pdf",
+      "saved": "20260728-121618",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis352.png"
+      }
+    },
+    "pv_wordcloud_axis353": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis353.pdf",
+      "saved": "20260728-121620",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis353.png"
+      }
+    },
+    "pv_wordcloud_axis354": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis354.pdf",
+      "saved": "20260728-121621",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis354.png"
+      }
+    },
+    "pv_wordcloud_axis355": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis355.pdf",
+      "saved": "20260728-121623",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis355.png"
+      }
+    },
+    "pv_wordcloud_axis356": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis356.pdf",
+      "saved": "20260728-121624",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis356.png"
+      }
+    },
+    "pv_wordcloud_axis357": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis357.pdf",
+      "saved": "20260728-121626",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis357.png"
+      }
+    },
+    "pv_wordcloud_axis358": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis358.pdf",
+      "saved": "20260728-121628",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis358.png"
+      }
+    },
+    "pv_wordcloud_axis359": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis359.pdf",
+      "saved": "20260728-121629",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis359.png"
+      }
+    },
+    "pv_wordcloud_axis360": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis360.pdf",
+      "saved": "20260728-121631",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis360.png"
+      }
+    },
+    "pv_wordcloud_axis361": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis361.pdf",
+      "saved": "20260728-121632",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis361.png"
+      }
+    },
+    "pv_wordcloud_axis362": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis362.pdf",
+      "saved": "20260728-121634",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis362.png"
+      }
+    },
+    "pv_wordcloud_axis363": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis363.pdf",
+      "saved": "20260728-121635",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis363.png"
+      }
+    },
+    "pv_wordcloud_axis364": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis364.pdf",
+      "saved": "20260728-121637",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis364.png"
+      }
+    },
+    "pv_wordcloud_axis365": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis365.pdf",
+      "saved": "20260728-121638",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis365.png"
+      }
+    },
+    "pv_wordcloud_axis366": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis366.pdf",
+      "saved": "20260728-121640",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis366.png"
+      }
+    },
+    "pv_wordcloud_axis367": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis367.pdf",
+      "saved": "20260728-121641",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis367.png"
+      }
+    },
+    "pv_wordcloud_axis368": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis368.pdf",
+      "saved": "20260728-121643",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis368.png"
+      }
+    },
+    "pv_wordcloud_axis369": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis369.pdf",
+      "saved": "20260728-121645",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis369.png"
+      }
+    },
+    "pv_wordcloud_axis370": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis370.pdf",
+      "saved": "20260728-121646",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis370.png"
+      }
+    },
+    "pv_wordcloud_axis371": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis371.pdf",
+      "saved": "20260728-121648",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis371.png"
+      }
+    },
+    "pv_wordcloud_axis372": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis372.pdf",
+      "saved": "20260728-121649",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis372.png"
+      }
+    },
+    "pv_wordcloud_axis373": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis373.pdf",
+      "saved": "20260728-121651",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis373.png"
+      }
+    },
+    "pv_wordcloud_axis374": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis374.pdf",
+      "saved": "20260728-121652",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis374.png"
+      }
+    },
+    "pv_wordcloud_axis375": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis375.pdf",
+      "saved": "20260728-121654",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis375.png"
+      }
+    },
+    "pv_wordcloud_axis376": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis376.pdf",
+      "saved": "20260728-121656",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis376.png"
+      }
+    },
+    "pv_wordcloud_axis377": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis377.pdf",
+      "saved": "20260728-121657",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis377.png"
+      }
+    },
+    "pv_wordcloud_axis378": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis378.pdf",
+      "saved": "20260728-121659",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis378.png"
+      }
+    },
+    "pv_wordcloud_axis379": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis379.pdf",
+      "saved": "20260728-121700",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis379.png"
+      }
+    },
+    "pv_wordcloud_axis380": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis380.pdf",
+      "saved": "20260728-121702",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis380.png"
+      }
+    },
+    "pv_wordcloud_axis381": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis381.pdf",
+      "saved": "20260728-121704",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis381.png"
+      }
+    },
+    "pv_wordcloud_axis382": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis382.pdf",
+      "saved": "20260728-121705",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis382.png"
+      }
+    },
+    "pv_wordcloud_axis383": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis383.pdf",
+      "saved": "20260728-121707",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis383.png"
+      }
+    },
+    "pv_wordcloud_axis384": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis384.pdf",
+      "saved": "20260728-121708",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis384.png"
+      }
+    },
+    "pv_wordcloud_axis385": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis385.pdf",
+      "saved": "20260728-121710",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis385.png"
+      }
+    },
+    "pv_wordcloud_axis386": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis386.pdf",
+      "saved": "20260728-121711",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis386.png"
+      }
+    },
+    "pv_wordcloud_axis387": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis387.pdf",
+      "saved": "20260728-121713",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis387.png"
+      }
+    },
+    "pv_wordcloud_axis388": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis388.pdf",
+      "saved": "20260728-121714",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis388.png"
+      }
+    },
+    "pv_wordcloud_axis389": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis389.pdf",
+      "saved": "20260728-121716",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis389.png"
+      }
+    },
+    "pv_wordcloud_axis390": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis390.pdf",
+      "saved": "20260728-121717",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis390.png"
+      }
+    },
+    "pv_wordcloud_axis391": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis391.pdf",
+      "saved": "20260728-121719",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis391.png"
+      }
+    },
+    "pv_wordcloud_axis392": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis392.pdf",
+      "saved": "20260728-121721",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis392.png"
+      }
+    },
+    "pv_wordcloud_axis393": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis393.pdf",
+      "saved": "20260728-121722",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis393.png"
+      }
+    },
+    "pv_wordcloud_axis394": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis394.pdf",
+      "saved": "20260728-121724",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis394.png"
+      }
+    },
+    "pv_wordcloud_axis395": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis395.pdf",
+      "saved": "20260728-121725",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis395.png"
+      }
+    },
+    "pv_wordcloud_axis396": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis396.pdf",
+      "saved": "20260728-121727",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis396.png"
+      }
+    },
+    "pv_wordcloud_axis397": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis397.pdf",
+      "saved": "20260728-121728",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis397.png"
+      }
+    },
+    "pv_wordcloud_axis398": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis398.pdf",
+      "saved": "20260728-121730",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis398.png"
+      }
+    },
+    "pv_wordcloud_axis399": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis399.pdf",
+      "saved": "20260728-121731",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis399.png"
+      }
+    },
+    "pv_wordcloud_axis400": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis400.pdf",
+      "saved": "20260728-121733",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis400.png"
+      }
+    },
+    "pv_wordcloud_axis401": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis401.pdf",
+      "saved": "20260728-121734",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis401.png"
+      }
+    },
+    "pv_wordcloud_axis402": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis402.pdf",
+      "saved": "20260728-121736",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis402.png"
+      }
+    },
+    "pv_wordcloud_axis403": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis403.pdf",
+      "saved": "20260728-121737",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis403.png"
+      }
+    },
+    "pv_wordcloud_axis404": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis404.pdf",
+      "saved": "20260728-121739",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis404.png"
+      }
+    },
+    "pv_wordcloud_axis405": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis405.pdf",
+      "saved": "20260728-121740",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis405.png"
+      }
+    },
+    "pv_wordcloud_axis406": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis406.pdf",
+      "saved": "20260728-121742",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis406.png"
+      }
+    },
+    "pv_wordcloud_axis407": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis407.pdf",
+      "saved": "20260728-121744",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis407.png"
+      }
+    },
+    "pv_wordcloud_axis408": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis408.pdf",
+      "saved": "20260728-121745",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis408.png"
+      }
+    },
+    "pv_wordcloud_axis409": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis409.pdf",
+      "saved": "20260728-121747",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis409.png"
+      }
+    },
+    "pv_wordcloud_axis410": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis410.pdf",
+      "saved": "20260728-121749",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis410.png"
+      }
+    },
+    "pv_wordcloud_axis411": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis411.pdf",
+      "saved": "20260728-121750",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis411.png"
+      }
+    },
+    "pv_wordcloud_axis412": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis412.pdf",
+      "saved": "20260728-121752",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis412.png"
+      }
+    },
+    "pv_wordcloud_axis413": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis413.pdf",
+      "saved": "20260728-121753",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis413.png"
+      }
+    },
+    "pv_wordcloud_axis414": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis414.pdf",
+      "saved": "20260728-121755",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis414.png"
+      }
+    },
+    "pv_wordcloud_axis415": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis415.pdf",
+      "saved": "20260728-121756",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis415.png"
+      }
+    },
+    "pv_wordcloud_axis416": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis416.pdf",
+      "saved": "20260728-121758",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis416.png"
+      }
+    },
+    "pv_wordcloud_axis417": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis417.pdf",
+      "saved": "20260728-121759",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis417.png"
+      }
+    },
+    "pv_wordcloud_axis418": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis418.pdf",
+      "saved": "20260728-121801",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis418.png"
+      }
+    },
+    "pv_wordcloud_axis419": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis419.pdf",
+      "saved": "20260728-121802",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis419.png"
+      }
+    },
+    "pv_wordcloud_axis420": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis420.pdf",
+      "saved": "20260728-121804",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis420.png"
+      }
+    },
+    "pv_wordcloud_axis421": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis421.pdf",
+      "saved": "20260728-121805",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis421.png"
+      }
+    },
+    "pv_wordcloud_axis422": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis422.pdf",
+      "saved": "20260728-121807",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis422.png"
+      }
+    },
+    "pv_wordcloud_axis423": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis423.pdf",
+      "saved": "20260728-121808",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis423.png"
+      }
+    },
+    "pv_wordcloud_axis424": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis424.pdf",
+      "saved": "20260728-121810",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis424.png"
+      }
+    },
+    "pv_wordcloud_axis425": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis425.pdf",
+      "saved": "20260728-121811",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis425.png"
+      }
+    },
+    "pv_wordcloud_axis426": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis426.pdf",
+      "saved": "20260728-121813",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis426.png"
+      }
+    },
+    "pv_wordcloud_axis427": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis427.pdf",
+      "saved": "20260728-121814",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis427.png"
+      }
+    },
+    "pv_wordcloud_axis428": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis428.pdf",
+      "saved": "20260728-121816",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis428.png"
+      }
+    },
+    "pv_wordcloud_axis429": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis429.pdf",
+      "saved": "20260728-121817",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis429.png"
+      }
+    },
+    "pv_wordcloud_axis430": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis430.pdf",
+      "saved": "20260728-121819",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis430.png"
+      }
+    },
+    "pv_wordcloud_axis431": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis431.pdf",
+      "saved": "20260728-121821",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis431.png"
+      }
+    },
+    "pv_wordcloud_axis432": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis432.pdf",
+      "saved": "20260728-121822",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis432.png"
+      }
+    },
+    "pv_wordcloud_axis433": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis433.pdf",
+      "saved": "20260728-121824",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis433.png"
+      }
+    },
+    "pv_wordcloud_axis434": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis434.pdf",
+      "saved": "20260728-121825",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis434.png"
+      }
+    },
+    "pv_wordcloud_axis435": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis435.pdf",
+      "saved": "20260728-121827",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis435.png"
+      }
+    },
+    "pv_wordcloud_axis436": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis436.pdf",
+      "saved": "20260728-121829",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis436.png"
+      }
+    },
+    "pv_wordcloud_axis437": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis437.pdf",
+      "saved": "20260728-121830",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis437.png"
+      }
+    },
+    "pv_wordcloud_axis438": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis438.pdf",
+      "saved": "20260728-121832",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis438.png"
+      }
+    },
+    "pv_wordcloud_axis439": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis439.pdf",
+      "saved": "20260728-121833",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis439.png"
+      }
+    },
+    "pv_wordcloud_axis440": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis440.pdf",
+      "saved": "20260728-121835",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis440.png"
+      }
+    },
+    "pv_wordcloud_axis441": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis441.pdf",
+      "saved": "20260728-121836",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis441.png"
+      }
+    },
+    "pv_wordcloud_axis442": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis442.pdf",
+      "saved": "20260728-121838",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis442.png"
+      }
+    },
+    "pv_wordcloud_axis443": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis443.pdf",
+      "saved": "20260728-121839",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis443.png"
+      }
+    },
+    "pv_wordcloud_axis444": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis444.pdf",
+      "saved": "20260728-121841",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis444.png"
+      }
+    },
+    "pv_wordcloud_axis445": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis445.pdf",
+      "saved": "20260728-121842",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis445.png"
+      }
+    },
+    "pv_wordcloud_axis446": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis446.pdf",
+      "saved": "20260728-121844",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis446.png"
+      }
+    },
+    "pv_wordcloud_axis447": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis447.pdf",
+      "saved": "20260728-121845",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis447.png"
+      }
+    },
+    "pv_wordcloud_axis448": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis448.pdf",
+      "saved": "20260728-121847",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis448.png"
+      }
+    },
+    "pv_wordcloud_axis449": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis449.pdf",
+      "saved": "20260728-121848",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis449.png"
+      }
+    },
+    "pv_wordcloud_axis450": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis450.pdf",
+      "saved": "20260728-121850",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis450.png"
+      }
+    },
+    "pv_wordcloud_axis451": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis451.pdf",
+      "saved": "20260728-121852",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis451.png"
+      }
+    },
+    "pv_wordcloud_axis452": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis452.pdf",
+      "saved": "20260728-121853",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis452.png"
+      }
+    },
+    "pv_wordcloud_axis453": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis453.pdf",
+      "saved": "20260728-121855",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis453.png"
+      }
+    },
+    "pv_wordcloud_axis454": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis454.pdf",
+      "saved": "20260728-121857",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis454.png"
+      }
+    },
+    "pv_wordcloud_axis455": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis455.pdf",
+      "saved": "20260728-121858",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis455.png"
+      }
+    },
+    "pv_wordcloud_axis456": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis456.pdf",
+      "saved": "20260728-121900",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis456.png"
+      }
+    },
+    "pv_wordcloud_axis457": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis457.pdf",
+      "saved": "20260728-121902",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis457.png"
+      }
+    },
+    "pv_wordcloud_axis458": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis458.pdf",
+      "saved": "20260728-121903",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis458.png"
+      }
+    },
+    "pv_wordcloud_axis459": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis459.pdf",
+      "saved": "20260728-121905",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis459.png"
+      }
+    },
+    "pv_wordcloud_axis460": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis460.pdf",
+      "saved": "20260728-121906",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis460.png"
+      }
+    },
+    "pv_wordcloud_axis461": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis461.pdf",
+      "saved": "20260728-121908",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis461.png"
+      }
+    },
+    "pv_wordcloud_axis462": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis462.pdf",
+      "saved": "20260728-121909",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis462.png"
+      }
+    },
+    "pv_wordcloud_axis463": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis463.pdf",
+      "saved": "20260728-121911",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis463.png"
+      }
+    },
+    "pv_wordcloud_axis464": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis464.pdf",
+      "saved": "20260728-121913",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis464.png"
+      }
+    },
+    "pv_wordcloud_axis465": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis465.pdf",
+      "saved": "20260728-121914",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis465.png"
+      }
+    },
+    "pv_wordcloud_axis466": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis466.pdf",
+      "saved": "20260728-121916",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis466.png"
+      }
+    },
+    "pv_wordcloud_axis467": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis467.pdf",
+      "saved": "20260728-121917",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis467.png"
+      }
+    },
+    "pv_wordcloud_axis468": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis468.pdf",
+      "saved": "20260728-121919",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis468.png"
+      }
+    },
+    "pv_wordcloud_axis469": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis469.pdf",
+      "saved": "20260728-121920",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis469.png"
+      }
+    },
+    "pv_wordcloud_axis470": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis470.pdf",
+      "saved": "20260728-121922",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis470.png"
+      }
+    },
+    "pv_wordcloud_axis471": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis471.pdf",
+      "saved": "20260728-121923",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis471.png"
+      }
+    },
+    "pv_wordcloud_axis472": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis472.pdf",
+      "saved": "20260728-121925",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis472.png"
+      }
+    },
+    "pv_wordcloud_axis473": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis473.pdf",
+      "saved": "20260728-121926",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis473.png"
+      }
+    },
+    "pv_wordcloud_axis474": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis474.pdf",
+      "saved": "20260728-121928",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis474.png"
+      }
+    },
+    "pv_wordcloud_axis475": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis475.pdf",
+      "saved": "20260728-121929",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis475.png"
+      }
+    },
+    "pv_wordcloud_axis476": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis476.pdf",
+      "saved": "20260728-121931",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis476.png"
+      }
+    },
+    "pv_wordcloud_axis477": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis477.pdf",
+      "saved": "20260728-121932",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis477.png"
+      }
+    },
+    "pv_wordcloud_axis478": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis478.pdf",
+      "saved": "20260728-121934",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis478.png"
+      }
+    },
+    "pv_wordcloud_axis479": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis479.pdf",
+      "saved": "20260728-121935",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis479.png"
+      }
+    },
+    "pv_wordcloud_axis480": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis480.pdf",
+      "saved": "20260728-121937",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis480.png"
+      }
+    },
+    "pv_wordcloud_axis481": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis481.pdf",
+      "saved": "20260728-121938",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis481.png"
+      }
+    },
+    "pv_wordcloud_axis482": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis482.pdf",
+      "saved": "20260728-121940",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis482.png"
+      }
+    },
+    "pv_wordcloud_axis483": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis483.pdf",
+      "saved": "20260728-121941",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis483.png"
+      }
+    },
+    "pv_wordcloud_axis484": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis484.pdf",
+      "saved": "20260728-121944",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis484.png"
+      }
+    },
+    "pv_wordcloud_axis485": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis485.pdf",
+      "saved": "20260728-121945",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis485.png"
+      }
+    },
+    "pv_wordcloud_axis486": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis486.pdf",
+      "saved": "20260728-121947",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis486.png"
+      }
+    },
+    "pv_wordcloud_axis487": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis487.pdf",
+      "saved": "20260728-121948",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis487.png"
+      }
+    },
+    "pv_wordcloud_axis488": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis488.pdf",
+      "saved": "20260728-121950",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis488.png"
+      }
+    },
+    "pv_wordcloud_axis489": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis489.pdf",
+      "saved": "20260728-121951",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis489.png"
+      }
+    },
+    "pv_wordcloud_axis490": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis490.pdf",
+      "saved": "20260728-121952",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis490.png"
+      }
+    },
+    "pv_wordcloud_axis491": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis491.pdf",
+      "saved": "20260728-121954",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis491.png"
+      }
+    },
+    "pv_wordcloud_axis492": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis492.pdf",
+      "saved": "20260728-121955",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis492.png"
+      }
+    },
+    "pv_wordcloud_axis493": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis493.pdf",
+      "saved": "20260728-121957",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis493.png"
+      }
+    },
+    "pv_wordcloud_axis494": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis494.pdf",
+      "saved": "20260728-121958",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis494.png"
+      }
+    },
+    "pv_wordcloud_axis495": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis495.pdf",
+      "saved": "20260728-122000",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis495.png"
+      }
+    },
+    "pv_wordcloud_axis496": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis496.pdf",
+      "saved": "20260728-122001",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis496.png"
+      }
+    },
+    "pv_wordcloud_axis497": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis497.pdf",
+      "saved": "20260728-122003",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis497.png"
+      }
+    },
+    "pv_wordcloud_axis498": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis498.pdf",
+      "saved": "20260728-122004",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis498.png"
+      }
+    },
+    "pv_wordcloud_axis499": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis499.pdf",
+      "saved": "20260728-122006",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis499.png"
+      }
+    },
+    "pv_wordcloud_axis500": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis500.pdf",
+      "saved": "20260728-122008",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis500.png"
+      }
+    },
+    "pv_wordcloud_axis501": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis501.pdf",
+      "saved": "20260728-122009",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis501.png"
+      }
+    },
+    "pv_wordcloud_axis502": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis502.pdf",
+      "saved": "20260728-122011",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis502.png"
+      }
+    },
+    "pv_wordcloud_axis503": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis503.pdf",
+      "saved": "20260728-122012",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis503.png"
+      }
+    },
+    "pv_wordcloud_axis504": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis504.pdf",
+      "saved": "20260728-122014",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis504.png"
+      }
+    },
+    "pv_wordcloud_axis505": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis505.pdf",
+      "saved": "20260728-122015",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis505.png"
+      }
+    },
+    "pv_wordcloud_axis506": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis506.pdf",
+      "saved": "20260728-122017",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis506.png"
+      }
+    },
+    "pv_wordcloud_axis507": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis507.pdf",
+      "saved": "20260728-122018",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis507.png"
+      }
+    },
+    "pv_wordcloud_axis508": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis508.pdf",
+      "saved": "20260728-122020",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis508.png"
+      }
+    },
+    "pv_wordcloud_axis509": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis509.pdf",
+      "saved": "20260728-122022",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis509.png"
+      }
+    },
+    "pv_wordcloud_axis510": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis510.pdf",
+      "saved": "20260728-122023",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis510.png"
+      }
+    },
+    "pv_wordcloud_axis511": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis511.pdf",
+      "saved": "20260728-122025",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis511.png"
+      }
+    },
+    "pv_wordcloud_axis512": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis512.pdf",
+      "saved": "20260728-122027",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis512.png"
+      }
+    },
+    "pv_wordcloud_axis513": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis513.pdf",
+      "saved": "20260728-122028",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis513.png"
+      }
+    },
+    "pv_wordcloud_axis514": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis514.pdf",
+      "saved": "20260728-122030",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis514.png"
+      }
+    },
+    "pv_wordcloud_axis515": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis515.pdf",
+      "saved": "20260728-122032",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis515.png"
+      }
+    },
+    "pv_wordcloud_axis516": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis516.pdf",
+      "saved": "20260728-122033",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis516.png"
+      }
+    },
+    "pv_wordcloud_axis517": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis517.pdf",
+      "saved": "20260728-122035",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis517.png"
+      }
+    },
+    "pv_wordcloud_axis518": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis518.pdf",
+      "saved": "20260728-122037",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis518.png"
+      }
+    },
+    "pv_wordcloud_axis519": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis519.pdf",
+      "saved": "20260728-122038",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis519.png"
+      }
+    },
+    "pv_wordcloud_axis520": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis520.pdf",
+      "saved": "20260728-122040",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis520.png"
+      }
+    },
+    "pv_wordcloud_axis521": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis521.pdf",
+      "saved": "20260728-122041",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis521.png"
+      }
+    },
+    "pv_wordcloud_axis522": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis522.pdf",
+      "saved": "20260728-122043",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis522.png"
+      }
+    },
+    "pv_wordcloud_axis523": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis523.pdf",
+      "saved": "20260728-122045",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis523.png"
+      }
+    },
+    "pv_wordcloud_axis524": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis524.pdf",
+      "saved": "20260728-122046",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis524.png"
+      }
+    },
+    "pv_wordcloud_axis525": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis525.pdf",
+      "saved": "20260728-122048",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis525.png"
+      }
+    },
+    "pv_wordcloud_axis526": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis526.pdf",
+      "saved": "20260728-122049",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis526.png"
+      }
+    },
+    "pv_wordcloud_axis527": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis527.pdf",
+      "saved": "20260728-122051",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis527.png"
+      }
+    },
+    "pv_wordcloud_axis528": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis528.pdf",
+      "saved": "20260728-122052",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis528.png"
+      }
+    },
+    "pv_wordcloud_axis529": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis529.pdf",
+      "saved": "20260728-122054",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis529.png"
+      }
+    },
+    "pv_wordcloud_axis530": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis530.pdf",
+      "saved": "20260728-122055",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis530.png"
+      }
+    },
+    "pv_wordcloud_axis531": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis531.pdf",
+      "saved": "20260728-122057",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis531.png"
+      }
+    },
+    "pv_wordcloud_axis532": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis532.pdf",
+      "saved": "20260728-122059",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis532.png"
+      }
+    },
+    "pv_wordcloud_axis533": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis533.pdf",
+      "saved": "20260728-122100",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis533.png"
+      }
+    },
+    "pv_wordcloud_axis534": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis534.pdf",
+      "saved": "20260728-122102",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis534.png"
+      }
+    },
+    "pv_wordcloud_axis535": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis535.pdf",
+      "saved": "20260728-122103",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis535.png"
+      }
+    },
+    "pv_wordcloud_axis536": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis536.pdf",
+      "saved": "20260728-122105",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis536.png"
+      }
+    },
+    "pv_wordcloud_axis537": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis537.pdf",
+      "saved": "20260728-122106",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis537.png"
+      }
+    },
+    "pv_wordcloud_axis538": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis538.pdf",
+      "saved": "20260728-122108",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis538.png"
+      }
+    },
+    "pv_wordcloud_axis539": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis539.pdf",
+      "saved": "20260728-122110",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis539.png"
+      }
+    },
+    "pv_wordcloud_axis540": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis540.pdf",
+      "saved": "20260728-122112",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis540.png"
+      }
+    },
+    "pv_wordcloud_axis541": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis541.pdf",
+      "saved": "20260728-122113",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis541.png"
+      }
+    },
+    "pv_wordcloud_axis542": {
+      "kind": "figure",
+      "path": "figures/pv_wordcloud_axis542.pdf",
+      "saved": "20260728-122115",
+      "meta": {
+        "png": "figures/pv_wordcloud_axis542.png"
+      }
+    },
+    "topol_pv_llm_explanations": {
+      "kind": "table",
+      "path": "tables/topol_pv_llm_explanations.csv",
+      "saved": "20260728-123331",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "explanation"
+        ]
+      }
+    },
+    "topol_pv_llm_explanations_it": {
+      "kind": "table",
+      "path": "tables/topol_pv_llm_explanations_it.csv",
+      "saved": "20260728-124345",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "explanation_it"
+        ]
+      }
+    },
+    "topol_pv_llm_pt_vs_it": {
+      "kind": "table",
+      "path": "tables/topol_pv_llm_pt_vs_it.csv",
+      "saved": "20260728-124345",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "explanation_it",
+          "explanation",
+          "top_terms_A",
+          "top_terms_B"
+        ]
+      }
+    },
+    "pv_topic_field_0": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_0.pdf",
+      "saved": "20260728-124351",
+      "meta": {
+        "png": "figures/pv_topic_field_0.png"
+      }
+    },
+    "pv_topic_field_1": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_1.pdf",
+      "saved": "20260728-124358",
+      "meta": {
+        "png": "figures/pv_topic_field_1.png"
+      }
+    },
+    "pv_topic_field_2": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_2.pdf",
+      "saved": "20260728-124405",
+      "meta": {
+        "png": "figures/pv_topic_field_2.png"
+      }
+    },
+    "pv_topic_field_3": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_3.pdf",
+      "saved": "20260728-124412",
+      "meta": {
+        "png": "figures/pv_topic_field_3.png"
+      }
+    },
+    "pv_topic_field_4": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_4.pdf",
+      "saved": "20260728-124419",
+      "meta": {
+        "png": "figures/pv_topic_field_4.png"
+      }
+    },
+    "pv_topic_field_5": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_5.pdf",
+      "saved": "20260728-124427",
+      "meta": {
+        "png": "figures/pv_topic_field_5.png"
+      }
+    },
+    "pv_topic_field_6": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_6.pdf",
+      "saved": "20260728-124434",
+      "meta": {
+        "png": "figures/pv_topic_field_6.png"
+      }
+    },
+    "pv_topic_field_7": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_7.pdf",
+      "saved": "20260728-124440",
+      "meta": {
+        "png": "figures/pv_topic_field_7.png"
+      }
+    },
+    "pv_topic_field_8": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_8.pdf",
+      "saved": "20260728-124447",
+      "meta": {
+        "png": "figures/pv_topic_field_8.png"
+      }
+    },
+    "pv_topic_field_9": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_9.pdf",
+      "saved": "20260728-124454",
+      "meta": {
+        "png": "figures/pv_topic_field_9.png"
+      }
+    },
+    "pv_topic_field_10": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_10.pdf",
+      "saved": "20260728-124501",
+      "meta": {
+        "png": "figures/pv_topic_field_10.png"
+      }
+    },
+    "pv_topic_field_11": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_11.pdf",
+      "saved": "20260728-124508",
+      "meta": {
+        "png": "figures/pv_topic_field_11.png"
+      }
+    },
+    "pv_topic_field_12": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_12.pdf",
+      "saved": "20260728-124514",
+      "meta": {
+        "png": "figures/pv_topic_field_12.png"
+      }
+    },
+    "pv_topic_field_13": {
+      "kind": "figure",
+      "path": "figures/pv_topic_field_13.pdf",
+      "saved": "20260728-124521",
+      "meta": {
+        "png": "figures/pv_topic_field_13.png"
+      }
+    },
+    "topol_doc_sentiment": {
+      "kind": "array",
+      "path": "objects/topol_doc_sentiment.npz",
+      "saved": "20260728-124620",
+      "meta": {
+        "shape": [
+          9986
+        ],
+        "dtype": "float64",
+        "model": "cardiffnlp/twitter-roberta-base-sentiment-latest"
+      }
+    },
+    "topol_pv_sentiment_alignment": {
+      "kind": "table",
+      "path": "tables/topol_pv_sentiment_alignment.csv",
+      "saved": "20260728-124631",
+      "meta": {
+        "rows": 543,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "cos_to_cb",
+          "abs_cos_to_cb",
+          "corr_rating",
+          "abs_corr_rating",
+          "sentiment_delta",
+          "abs_sentiment_delta",
+          "l_star",
+          "layer_id",
+          "effect_size_at_lstar",
+          "n_docs"
+        ]
+      }
+    },
+    "topol_causal_plan": {
+      "kind": "pickle",
+      "path": "objects/topol_causal_plan.pkl",
+      "saved": "20260728-150152",
+      "meta": {}
+    },
+    "topol_causal_summary": {
+      "kind": "table",
+      "path": "tables/topol_causal_summary.csv",
+      "saved": "20260728-150153",
+      "meta": {
+        "rows": 14,
+        "cols": [
+          "topic",
+          "n_directions_input",
+          "ablated_rank",
+          "sources"
+        ]
+      }
+    },
+    "topol_causal_selected_axes": {
+      "kind": "table",
+      "path": "tables/topol_causal_selected_axes.csv",
+      "saved": "20260728-150153",
+      "meta": {
+        "rows": 101,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "cos_to_cb",
+          "abs_cos_to_cb",
+          "corr_rating",
+          "abs_corr_rating",
+          "sentiment_delta",
+          "abs_sentiment_delta",
+          "l_star",
+          "layer_id",
+          "effect_size_at_lstar",
+          "n_docs"
+        ]
+      }
+    },
+    "topol_causal_meta": {
+      "kind": "json",
+      "path": "objects/topol_causal_meta.json",
+      "saved": "20260728-150153",
+      "meta": {}
+    },
+    "topol_causal_ablated_embedding": {
+      "kind": "array",
+      "path": "objects/topol_causal_ablated_embedding.npz",
+      "saved": "20260728-150235",
+      "meta": {
+        "shape": [
+          9986,
+          2560
+        ],
+        "dtype": "float64",
+        "layer": 16
+      }
+    },
+    "topol_causal_cb_magnitude": {
+      "kind": "table",
+      "path": "tables/topol_causal_cb_magnitude.csv",
+      "saved": "20260728-151144",
+      "meta": {
+        "rows": 14,
+        "cols": [
+          "topic",
+          "magnitude_before",
+          "magnitude_after"
+        ]
+      }
+    },
+    "24_causal_cb_magnitude": {
+      "kind": "figure",
+      "path": "figures/24_causal_cb_magnitude.pdf",
+      "saved": "20260728-151146",
+      "meta": {
+        "png": "figures/24_causal_cb_magnitude.png"
+      }
+    },
+    "topol_causal_excess_axis_retention": {
+      "kind": "table",
+      "path": "tables/topol_causal_excess_axis_retention.csv",
+      "saved": "20260728-151237",
+      "meta": {
+        "rows": 442,
+        "cols": [
+          "topic",
+          "contrast_index",
+          "d_before",
+          "d_after",
+          "d_retained_frac"
+        ]
+      }
+    },
+    "25_causal_excess_axis_retention": {
+      "kind": "figure",
+      "path": "figures/25_causal_excess_axis_retention.pdf",
+      "saved": "20260728-151239",
+      "meta": {
+        "png": "figures/25_causal_excess_axis_retention.png"
+      }
+    },
+    "topol_causal_necessity": {
+      "kind": "json",
+      "path": "objects/topol_causal_necessity.json",
+      "saved": "20260728-151101",
+      "meta": {}
+    },
+    "23_causal_necessity": {
+      "kind": "figure",
+      "path": "figures/23_causal_necessity.pdf",
+      "saved": "20260728-151105",
+      "meta": {
+        "png": "figures/23_causal_necessity.png"
+      }
+    },
+    "topol_causal_reclustering": {
+      "kind": "json",
+      "path": "objects/topol_causal_reclustering.json",
+      "saved": "20260728-151429",
+      "meta": {}
+    },
+    "26_causal_umap_before_after": {
+      "kind": "figure",
+      "path": "figures/26_causal_umap_before_after.pdf",
+      "saved": "20260728-151432",
+      "meta": {
+        "png": "figures/26_causal_umap_before_after.png"
+      }
+    },
+    "27_causal_cluster_agreement": {
+      "kind": "figure",
+      "path": "figures/27_causal_cluster_agreement.pdf",
+      "saved": "20260728-151434",
+      "meta": {
+        "png": "figures/27_causal_cluster_agreement.png"
+      }
+    },
+    "topol_causal_axis_geometry_after": {
+      "kind": "table",
+      "path": "tables/topol_causal_axis_geometry_after.csv",
+      "saved": "20260728-154558",
+      "meta": {
+        "rows": 442,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "d_before",
+          "d_after",
+          "d_retained_frac",
+          "cos_direction_before_after",
+          "ari_pole_membership",
+          "n_flipped",
+          "n_docs"
+        ]
+      }
+    },
+    "topol_causal_tfidf_shift": {
+      "kind": "table",
+      "path": "tables/topol_causal_tfidf_shift.csv",
+      "saved": "20260728-154613",
+      "meta": {
+        "rows": 442,
+        "cols": [
+          "axis_id",
+          "topic",
+          "jaccard_A",
+          "jaccard_B",
+          "top_terms_A_before",
+          "top_terms_A_after",
+          "top_terms_B_before",
+          "top_terms_B_after"
+        ]
+      }
+    },
+    "28_causal_tfidf_jaccard": {
+      "kind": "figure",
+      "path": "figures/28_causal_tfidf_jaccard.pdf",
+      "saved": "20260728-154848",
+      "meta": {
+        "png": "figures/28_causal_tfidf_jaccard.png"
+      }
+    },
+    "topol_causal_sentiment_survival": {
+      "kind": "json",
+      "path": "objects/topol_causal_sentiment_survival.json",
+      "saved": "20260728-154959",
+      "meta": {}
+    },
+    "30_causal_sentiment_survival": {
+      "kind": "figure",
+      "path": "figures/30_causal_sentiment_survival.pdf",
+      "saved": "20260728-155000",
+      "meta": {
+        "png": "figures/30_causal_sentiment_survival.png"
+      }
+    },
+    "topol_causal_llm_explanations_after": {
+      "kind": "table",
+      "path": "tables/topol_causal_llm_explanations_after.csv",
+      "saved": "20260728-155823",
+      "meta": {
+        "rows": 442,
+        "cols": [
+          "axis_id",
+          "topic",
+          "contrast_index",
+          "explanation_it"
+        ]
+      }
+    }
+  }
+}

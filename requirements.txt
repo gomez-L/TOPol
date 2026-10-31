@@ -1,0 +1,27 @@
+# core
+numpy
+scipy
+pandas
+pyarrow            # parquet tables
+scikit-learn
+matplotlib
+
+# topic segmentation
+umap-learn
+leidenalg
+python-igraph
+scikit-network
+
+# models (Gemma 3 4B field, EmbeddingGemma segmentation, RoBERTa sentiment)
+torch
+transformers>=4.50
+sentence-transformers
+huggingface_hub
+safetensors
+requests
+
+# interpretation
+wordcloud
+
+# optional: Gemma Scope 2 SAEs via SAELens (not used by the default pipeline)
+# sae-lens

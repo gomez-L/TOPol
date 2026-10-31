@@ -1,0 +1,15 @@
+topic,n_directions_input,ablated_rank,sources
+0,18,18,"v_CB, axis3, axis11, axis17, axis19, axis20, axis30, axis31, axis32, axis33, axis36, axis37, axis38, axis39, axis40, axis41, axis42, axis43"
+1,4,4,"v_CB, axis74, axis76, axis78"
+2,9,9,"v_CB, axis83, axis88, axis93, axis101, axis102, axis103, axis104, axis111"
+3,10,10,"v_CB, axis116, axis117, axis118, axis119, axis120, axis121, axis122, axis123, axis126"
+4,17,17,"v_CB, axis163, axis164, axis170, axis171, axis172, axis177, axis179, axis180, axis181, axis183, axis184, axis185, axis186, axis187, axis188, axis195"
+5,7,7,"v_CB, axis203, axis217, axis218, axis219, axis236, axis237"
+6,14,14,"v_CB, axis245, axis248, axis255, axis260, axis261, axis271, axis272, axis273, axis274, axis275, axis276, axis277, axis281"
+7,4,4,"v_CB, axis309, axis311, axis312"
+8,1,1,v_CB
+9,1,1,v_CB
+10,1,1,v_CB
+11,6,6,"v_CB, axis445, axis449, axis450, axis451, axis463"
+12,15,15,"v_CB, axis469, axis475, axis478, axis484, axis488, axis489, axis490, axis491, axis492, axis493, axis494, axis495, axis496, axis501"
+13,8,8,"v_CB, axis506, axis510, axis511, axis524, axis525, axis526, axis534"

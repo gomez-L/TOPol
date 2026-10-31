@@ -1,0 +1,8 @@
+{
+  "layer": 16,
+  "sentiment_delta_threshold": 0.3,
+  "include_cb": true,
+  "include_discovered_axes": true,
+  "n_selected_discovered_axes": 101,
+  "total_ablated_rank": 115
+}

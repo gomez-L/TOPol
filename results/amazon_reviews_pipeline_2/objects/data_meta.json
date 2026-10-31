@@ -1,0 +1,9 @@
+{
+  "source": "amazon_reviews_full.pkl",
+  "corpus": "amazon_reviews",
+  "rule": "precomputed label column",
+  "n_docs": 9986,
+  "min_chars": 100,
+  "n_A": 4993,
+  "n_B": 4993
+}
