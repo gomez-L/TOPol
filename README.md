@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/figures/topol_logo.png" width="260" alt="TOPol logo">
+</p>
+
 # TOPol — Reconstructing and Interpreting Multidimensional Semantic Polarity Fields
 
 NLP usually treats polarity as one axis: sentiment. TOPol asks a different question: **within a topic, what are the documents bipolar *about*?** You don't name the answer in advance.
