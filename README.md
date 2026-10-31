@@ -62,6 +62,8 @@ topolm/            the library: config, data loading, backends, discovery, gate,
   backends/        GemmaBackend (real runs) · SyntheticBackend (offline dev/testing)
 scripts/           the numbered CLI pipeline, steps 00–17 (run in order)
 notebooks/         pipeline_2.ipynb · pipeline_2_part2.ipynb · causal.ipynb (executed, outputs kept)
+data/              amazon_reviews_full.pkl: the 10k-review input corpus (text + label)
+configs/           amazon_reviews_paper.json: the exact configuration of the paper's run
 results/           tables + JSON summaries from the reference run (amazon_reviews_pipeline_2)
 docs/figures/      figures used in this README
 ```
@@ -155,13 +157,11 @@ for s in 02_select_layer 03_cluster_manifold 04_reconstruct_field \
 done
 ```
 
-**Full Amazon run:**
+**Full Amazon run (reproduces the paper).** The input corpus ships with the repo, see [Data](#data):
 
 ```bash
-# put the review table at ./data/amazon_reviews_full.pkl
-# needed columns: text (or review_body / content) + rating (or stars / overall / label)
-python scripts/00_prepare_data.py              --dataset amazon_reviews --data-dir data
-python scripts/01_extract_representations.py  --dataset amazon_reviews --backend gemma --data-dir data
+python scripts/01_extract_representations.py --dataset amazon_reviews --backend gemma \
+       --data-dir data --config configs/amazon_reviews_paper.json
 python scripts/02_select_layer.py
 python scripts/03_cluster_manifold.py
 python scripts/04_reconstruct_field.py
@@ -175,6 +175,19 @@ python scripts/08_topol_baseline_compare.py
 Every script has a `--help` flag. You can override hyperparameters from the CLI, or with `--config path/to/config.json`. All defaults live in [`topolm/config.py`](topolm/config.py).
 
 Main discovery defaults (`DiscoveryConfig`): `layer_stride=2`, `max_depth=4`, `min_cluster_size=30`, `ari_merge=0.7`, `stability_threshold=0.6`, `excess_cos_threshold=0.3`.
+
+---
+
+## Data
+
+[`data/amazon_reviews_full.pkl`](data/amazon_reviews_full.pkl) (~4 MB) is the input corpus: **10,000 Amazon reviews, 5,000 negative (`label=0`) and 5,000 positive (`label=1`)**. It is a pandas DataFrame with two columns, `text` and `label`.
+
+- With [`configs/amazon_reviews_paper.json`](configs/amazon_reviews_paper.json) (seed 42, classes balanced to the smaller one after dropping reviews under 100 characters), step 01 selects **exactly the 9,986 reviews, in the same order**, that the paper's run used.
+- If you run without that config, the default `n_per_class=5000` keeps 9,991 reviews: 4,998 negative and 4,993 positive.
+- `python scripts/00_prepare_data.py --dataset amazon_reviews --data-dir data --inspect` prints corpus diagnostics. You do not need to run step 00 to build anything: the shipped file is already prepared.
+- To use your own reviews, prepare them with `00_prepare_data.py --raw <file>`. The file needs a text column (`text`, `review_body` or `content`) and a star-rating column (`rating`, `stars`, `overall` or `star_rating`).
+
+The review texts come from a pre-existing, publicly sourced product-review corpus and are not a contribution of this repository.
 
 ---
 

@@ -1,0 +1,130 @@
+{
+  "dataset": "amazon_reviews",
+  "backend": "gemma",
+  "random_state": 42,
+  "runs_dir": "runs",
+  "model": {
+    "name": "google/gemma-3-4b-pt",
+    "layer": null,
+    "pooling": "mean",
+    "dtype": "bfloat16",
+    "device": "auto",
+    "max_length": 2048,
+    "batch_size": 8,
+    "attn_implementation": null
+  },
+  "segmentation": {
+    "name": "google/embeddinggemma-300m",
+    "prompt_name": "Clustering",
+    "batch_size": 64,
+    "normalize": true,
+    "source": "embedding",
+    "boundary_independent": true
+  },
+  "narration": {
+    "enabled": true,
+    "model": "google/gemma-3-4b-pt",
+    "n_exemplars": 12,
+    "max_dims": 5,
+    "min_evidence": 2,
+    "chars_per_side": 12000,
+    "max_new_tokens": 900
+  },
+  "affective": {
+    "enabled": true,
+    "source": "vad",
+    "rank": null,
+    "energy": 0.95,
+    "rank_sweep": [
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    "n_random_controls": 20,
+    "emotion_prompts_json": null
+  },
+  "sae": {
+    "enabled": true,
+    "size": "4b",
+    "variant": "pt",
+    "site": "resid_post_all",
+    "constrain_layer_selection": false,
+    "width": "64k",
+    "l0": "medium",
+    "use_transcoder": false,
+    "top_k_features": 12,
+    "coverage_k": 20,
+    "neuronpedia_model": "gemma-3-4b",
+    "use_saelens": false
+  },
+  "concept": {
+    "enabled": true,
+    "dimensions_pickle": "data/narrative_dimensions.pickle",
+    "center": true,
+    "top_k": 12,
+    "n_null": 2000
+  },
+  "corpus": {
+    "speeches_path": null,
+    "breakpoint": "2007-05-01",
+    "window_years": null,
+    "speech_min_chars": 500,
+    "max_docs": 600,
+    "amazon_path": null,
+    "n_per_class": null,
+    "negative_max": 2,
+    "positive_min": 4,
+    "review_min_chars": 100
+  },
+  "manifold": {
+    "n_neighbors": 15,
+    "min_dist": 0.0,
+    "n_components": 5,
+    "metric": "cosine",
+    "leiden_resolution": 1.0
+  },
+  "stats": {
+    "n_permutations": 1000,
+    "n_bootstrap": 1000,
+    "alpha": 0.05
+  },
+  "predictive": {
+    "enabled": true,
+    "ranks": null,
+    "n_permutations": 200,
+    "include_spherical": true,
+    "saturation_frac": 0.9
+  },
+  "steering": {
+    "alphas": [
+      -8.0,
+      -4.0,
+      -2.0,
+      0.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "apply_to": "all",
+    "max_new_tokens": 60,
+    "n_prompts": 24,
+    "panel": [
+      "probe_projection",
+      "ab_classifier",
+      "valence"
+    ],
+    "norm_relative": true
+  },
+  "discovery": {
+    "layer_stride": 2,
+    "max_depth": 4,
+    "min_cluster_size": 30,
+    "ari_merge": 0.7,
+    "stability_threshold": 0.6,
+    "excess_cos_threshold": 0.3,
+    "ref_layer": null,
+    "sentiment_corr_threshold": 0.2
+  }
+}

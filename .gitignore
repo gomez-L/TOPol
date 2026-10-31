@@ -6,9 +6,11 @@ __pycache__/
 venv/
 
 # large / local artifacts
-data/
+data/*
+!data/amazon_reviews_full.pkl
 runs/
 *.npz
 *.pkl
 *.pickle
 results/**/topol_pv_full_texts.*
+!data/amazon_reviews_full.pkl
