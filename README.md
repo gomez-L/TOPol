@@ -4,9 +4,9 @@
 
 # TOPol — Reconstructing and Interpreting Multidimensional Semantic Polarity Fields
 
-NLP usually treats polarity as one axis: sentiment. TOPol asks a different question: **within a topic, what are the documents bipolar *about*?** You don't name the answer in advance.
+NLP usually treats polarity as one axis: sentiment. TOPol asks a different question: **within a topic, in which dimensions are the documents bipolar *about*?** With this approach, TOPol can uncover different perspectives, framings,... any sort of semantic opposition.
 
-TOPol does not start from a named concept and look for its direction. It works the other way round. For each topic it finds **every statistically reproducible bipolar axis** that the topic's documents support in a transformer's residual stream. Only after that does it ask which of those axes match a known construct, if any. An axis does not have to be evaluative. Its two poles can contrast subject matter, register, or which of two product groups a review is about, as easily as *good vs. bad*.
+For each topic TOPol finds **every statistically reproducible bipolar axis** that the topic's documents support in a transformer's residual stream. Only after that does it ask which of those axes match a known construct, if any. An axis does not have to be evaluative. Its two poles can contrast subject matter, register, or which of two product groups a review is about, as easily as *good vs. bad*.
 
 For consulting the previous version of TOPol, implementing a fundamentally different method for a similar goal, go to repository [https://github.com/GabinTB/TOPol](https://github.com/GabinTB/TOPol).
 
